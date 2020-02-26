@@ -1,22 +1,87 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "children" : [ {
-    "name" : "TestSuite.CcsUserLoginController.test_merchat_addorupdate",
+    "name" : "TestSuite.CcsMerchantController.test_merchat_addorupdate.test_merchat_addorupdate",
     "children" : [ {
-      "name" : "test_merchant_addorupdate",
-      "uid" : "b0efc70625666e9b",
-      "parentUid" : "739e41a124f42f8b745ffa9ab3308fe0",
+      "name" : "test_config[赏宫松-王琦]",
+      "uid" : "3fc1baf5fbcc8f9",
+      "parentUid" : "92dab6e8a459ee8d26d3310bd660eda3",
       "status" : "passed",
       "time" : {
-        "start" : 1582643455978,
-        "stop" : 1582643456058,
-        "duration" : 80
+        "start" : 1582689765064,
+        "stop" : 1582689765146,
+        "duration" : 82
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ ]
+      "parameters" : [ "'赏宫松'", "'王琦'" ]
+    }, {
+      "name" : "test_config[赏宫松-刘程旭]",
+      "uid" : "2206e58eb9983c6b",
+      "parentUid" : "92dab6e8a459ee8d26d3310bd660eda3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582689765183,
+        "stop" : 1582689765238,
+        "duration" : 55
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'赏宫松'", "'刘程旭'" ]
+    }, {
+      "name" : "test_config[赏宫松-]",
+      "uid" : "46017027ffb92dc6",
+      "parentUid" : "92dab6e8a459ee8d26d3310bd660eda3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582689765276,
+        "stop" : 1582689765320,
+        "duration" : 44
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'赏宫松'", "''" ]
+    }, {
+      "name" : "test_config[璩仪志-王琦]",
+      "uid" : "29ab05abab28cf8f",
+      "parentUid" : "92dab6e8a459ee8d26d3310bd660eda3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582690830339,
+        "stop" : 1582690830423,
+        "duration" : 84
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'璩仪志'", "'王琦'" ]
+    }, {
+      "name" : "test_config[璩仪志-刘程旭]",
+      "uid" : "bd62686a930e44fe",
+      "parentUid" : "92dab6e8a459ee8d26d3310bd660eda3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582690830467,
+        "stop" : 1582690830523,
+        "duration" : 56
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'璩仪志'", "'刘程旭'" ]
+    }, {
+      "name" : "test_config[璩仪志-]",
+      "uid" : "1782b3df02be5a34",
+      "parentUid" : "92dab6e8a459ee8d26d3310bd660eda3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582690830560,
+        "stop" : 1582690830602,
+        "duration" : 42
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'璩仪志'", "''" ]
     } ],
-    "uid" : "TestSuite.CcsUserLoginController.test_merchat_addorupdate"
+    "uid" : "TestSuite.CcsMerchantController.test_merchat_addorupdate.test_merchat_addorupdate"
   } ],
   "name" : "packages"
 }

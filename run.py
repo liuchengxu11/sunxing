@@ -4,7 +4,8 @@ from utils import shell_tool
 
 if __name__ == '__main__':
     # 修改成要执行的测试用例
-    test_case = 'TestSuite/CcsUserLoginController/test_merchat_addorupdate.py'
+    # test_case = 'TestSuite/CcsMerchantController/test_merchat_addorupdate.py'
+    test_case="TestSuite/CcsMerchantController/test_merchat_addorupdate/test_merchat_addorupdate.py"
 
     xml_allure = './allure/xml/'
     html_allure = './allure/html/'
