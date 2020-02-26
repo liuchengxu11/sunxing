@@ -1,0 +1,11 @@
+[ {
+  "uid" : "b0efc70625666e9b",
+  "name" : "test_merchant_addorupdate",
+  "time" : {
+    "start" : 1582643455978,
+    "stop" : 1582643456058,
+    "duration" : 80
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

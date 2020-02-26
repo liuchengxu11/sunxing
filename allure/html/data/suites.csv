@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Feb 25 23:10:55 CST 2020","Tue Feb 25 23:10:56 CST 2020","80","TestSuite.CcsUserLoginController","test_merchat_addorupdate","","","","test_merchant_addorupdate","
+    新增修改的接口
+    :param Conftest:
+    :return:
+    "

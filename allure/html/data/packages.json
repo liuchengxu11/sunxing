@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "TestSuite.CcsUserLoginController.test_merchat_addorupdate",
+    "children" : [ {
+      "name" : "test_merchant_addorupdate",
+      "uid" : "b0efc70625666e9b",
+      "parentUid" : "739e41a124f42f8b745ffa9ab3308fe0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582643455978,
+        "stop" : 1582643456058,
+        "duration" : 80
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "TestSuite.CcsUserLoginController.test_merchat_addorupdate"
+  } ],
+  "name" : "packages"
+}

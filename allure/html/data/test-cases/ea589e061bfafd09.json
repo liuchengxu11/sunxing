@@ -1,0 +1,96 @@
+{
+  "uid" : "ea589e061bfafd09",
+  "name" : "test_merchant_addorupdate",
+  "fullName" : "TestSuite.CcsUserLoginController.test_merchat_addorupdate#test_merchant_addorupdate",
+  "historyId" : "3bfbe23a96c24f0221a510b10c6d9432",
+  "time" : {
+    "start" : 1582534319996,
+    "stop" : 1582534319996,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'Response' object has no attribute 'get'",
+  "statusTrace" : "@pytest.fixture()\n    def Conftest():\n        uri = \"/api/user/login\"\n    \n        data = {\n            \"account\": User_account,\n            \"password\": User_password\n        }\n        headers = {\n            'content-type': 'application/json'\n        }\n        comm = Common()\n        response = comm.post(uri, params=data, headers=headers)\n        isSuccess=response.text\n        print(isSuccess)\n    \n    \n        if \"true\" in isSuccess:\n            print(\"/api/user/login————————————登陆接口执行成功\")\n>           token = response.get('msg')\nE           AttributeError: 'Response' object has no attribute 'get'\n\nTestSuite/CcsUserLoginController/conftest.py:26: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Conftest",
+    "time" : {
+      "start" : 1582534319997,
+      "stop" : 1582534320043,
+      "duration" : 46
+    },
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'Response' object has no attribute 'get'\n",
+    "statusTrace" : "  File \"/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pluggy/callers.py\", line 187, in _multicall\n    res = hook_impl.function(*args)\n  File \"/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/_pytest/fixtures.py\", line 923, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/_pytest/fixtures.py\", line 783, in call_fixture_func\n    res = fixturefunc(**kwargs)\n  File \"/Users/liuchengxu/work/sunxing/sunxing/TestSuite/CcsUserLoginController/conftest.py\", line 26, in Conftest\n    token = response.get('msg')\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  }, {
+    "name" : "__pytest_repeat_step_number",
+    "time" : {
+      "start" : 1582534319997,
+      "stop" : 1582534319997,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "小程序登陆"
+  }, {
+    "name" : "epic",
+    "value" : "隼骑士小程序"
+  }, {
+    "name" : "story",
+    "value" : "随便写写"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestSuite.CcsUserLoginController"
+  }, {
+    "name" : "suite",
+    "value" : "test_merchat_addorupdate"
+  }, {
+    "name" : "subSuite"
+  }, {
+    "name" : "host",
+    "value" : "liuchengxudeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "2900-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestSuite.CcsUserLoginController.test_merchat_addorupdate"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ea589e061bfafd09.json",
+  "parameterValues" : [ ]
+}

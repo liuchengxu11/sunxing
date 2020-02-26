@@ -1,0 +1,30 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "隼骑士小程序",
+    "children" : [ {
+      "name" : "小程序登陆",
+      "children" : [ {
+        "name" : "addorupdate_新增修改",
+        "children" : [ {
+          "name" : "test_merchant_addorupdate",
+          "uid" : "b0efc70625666e9b",
+          "parentUid" : "f8cb68e52006dbe085109fe60e6a6cf3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1582643455978,
+            "stop" : 1582643456058,
+            "duration" : 80
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "f8cb68e52006dbe085109fe60e6a6cf3"
+      } ],
+      "uid" : "01caea2a9c5d1ef7d3b09dbaabc6a17e"
+    } ],
+    "uid" : "f88e7b0c0f081eeba225aad4a910dbd4"
+  } ],
+  "name" : "behaviors"
+}

@@ -1,0 +1,92 @@
+{
+  "uid" : "cc924b71f757c6d6",
+  "name" : "test_merchant_addorupdate",
+  "fullName" : "TestSuite.CcsUserLoginController.test_merchat_addorupdate#test_merchant_addorupdate",
+  "historyId" : "3bfbe23a96c24f0221a510b10c6d9432",
+  "time" : {
+    "start" : 1582597255166,
+    "stop" : 1582597255250,
+    "duration" : 84
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Conftest",
+    "time" : {
+      "start" : 1582597255115,
+      "stop" : 1582597255165,
+      "duration" : 50
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "__pytest_repeat_step_number",
+    "time" : {
+      "start" : 1582597255114,
+      "stop" : 1582597255114,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "随便写写"
+  }, {
+    "name" : "feature",
+    "value" : "小程序登陆"
+  }, {
+    "name" : "epic",
+    "value" : "隼骑士小程序"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestSuite.CcsUserLoginController"
+  }, {
+    "name" : "suite",
+    "value" : "test_merchat_addorupdate"
+  }, {
+    "name" : "subSuite"
+  }, {
+    "name" : "host",
+    "value" : "liuchengxudeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "9133-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestSuite.CcsUserLoginController.test_merchat_addorupdate"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cc924b71f757c6d6.json",
+  "parameterValues" : [ ]
+}
