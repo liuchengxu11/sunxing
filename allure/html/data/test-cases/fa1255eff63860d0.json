@@ -1,0 +1,162 @@
+{
+  "uid" : "fa1255eff63860d0",
+  "name" : "test_config[养丁甘-刘程旭]",
+  "fullName" : "TestSuite.CcsMerchantController.test_merchat_addorupdate.test_merchat_addorupdate.Test_config#test_config[养丁甘-刘程旭]",
+  "historyId" : "9381beac57d4495e106cab1e33124c55",
+  "time" : {
+    "start" : 1582779766734,
+    "stop" : 1582779766788,
+    "duration" : 54
+  },
+  "description" : "\n        /api/merchant/addOrUpdate 接口的公共配置\n        ",
+  "descriptionHtml" : "<pre><code>    /api/merchant/addOrUpdate 接口的公共配置\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "__pytest_repeat_step_number",
+    "time" : {
+      "start" : 1582779766704,
+      "stop" : 1582779766704,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "Conftest",
+    "time" : {
+      "start" : 1582779766705,
+      "stop" : 1582779766733,
+      "duration" : 28
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "73ae77032323d838",
+      "name" : "地址",
+      "source" : "73ae77032323d838.txt",
+      "type" : "text/plain",
+      "size" : 45
+    }, {
+      "uid" : "740b52126c9599f2",
+      "name" : "请求",
+      "source" : "740b52126c9599f2.txt",
+      "type" : "text/plain",
+      "size" : 60
+    }, {
+      "uid" : "1464225b0f0d83fa",
+      "name" : "请求头",
+      "source" : "1464225b0f0d83fa.txt",
+      "type" : "text/plain",
+      "size" : 42
+    }, {
+      "uid" : "e0cddcc057e5ec6c",
+      "name" : "响应",
+      "source" : "e0cddcc057e5ec6c.txt",
+      "type" : "text/plain",
+      "size" : 639
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "\n        /api/merchant/addOrUpdate 接口的公共配置\n        ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "501ff7469d11f92f",
+      "name" : "地址",
+      "source" : "501ff7469d11f92f.txt",
+      "type" : "text/plain",
+      "size" : 55
+    }, {
+      "uid" : "3318fc96bfae8547",
+      "name" : "请求",
+      "source" : "3318fc96bfae8547.txt",
+      "type" : "text/plain",
+      "size" : 861
+    }, {
+      "uid" : "2a887a9f53595718",
+      "name" : "请求头",
+      "source" : "2a887a9f53595718.txt",
+      "type" : "text/plain",
+      "size" : 343
+    }, {
+      "uid" : "cea7fe5f7b6dd991",
+      "name" : "响应",
+      "source" : "cea7fe5f7b6dd991.txt",
+      "type" : "text/plain",
+      "size" : 82
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "addorupdate_新增修改"
+  }, {
+    "name" : "feature",
+    "value" : "小程序登陆"
+  }, {
+    "name" : "epic",
+    "value" : "隼骑士小程序"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestSuite.CcsMerchantController.test_merchat_addorupdate"
+  }, {
+    "name" : "suite",
+    "value" : "test_merchat_addorupdate"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_config"
+  }, {
+    "name" : "host",
+    "value" : "liuchengxudeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "21077-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestSuite.CcsMerchantController.test_merchat_addorupdate.test_merchat_addorupdate"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test1",
+    "value" : "'养丁甘'"
+  }, {
+    "name" : "test2",
+    "value" : "'刘程旭'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fa1255eff63860d0.json",
+  "parameterValues" : [ "'养丁甘'", "'刘程旭'" ]
+}

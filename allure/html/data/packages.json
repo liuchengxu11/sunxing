@@ -1,48 +1,48 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
-  "name" : "packages",
   "children" : [ {
     "name" : "TestSuite.CcsMerchantController.test_merchat_addorupdate.test_merchat_addorupdate",
     "children" : [ {
-      "name" : "test_config[牧艳聂-王琦]",
-      "uid" : "763c3f3135d6ea60",
+      "name" : "test_config[养丁甘-王琦]",
+      "uid" : "7fab4864c893c320",
       "parentUid" : "92dab6e8a459ee8d26d3310bd660eda3",
       "status" : "passed",
       "time" : {
-        "start" : 1582695662907,
-        "stop" : 1582695662989,
-        "duration" : 82
+        "start" : 1582779766618,
+        "stop" : 1582779766698,
+        "duration" : 80
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "'牧艳聂'", "'王琦'" ]
+      "parameters" : [ "'养丁甘'", "'王琦'" ]
     }, {
-      "name" : "test_config[牧艳聂-刘程旭]",
-      "uid" : "497bff64491aa28",
+      "name" : "test_config[养丁甘-刘程旭]",
+      "uid" : "fa1255eff63860d0",
       "parentUid" : "92dab6e8a459ee8d26d3310bd660eda3",
       "status" : "passed",
       "time" : {
-        "start" : 1582695663030,
-        "stop" : 1582695663081,
-        "duration" : 51
+        "start" : 1582779766734,
+        "stop" : 1582779766788,
+        "duration" : 54
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "'牧艳聂'", "'刘程旭'" ]
+      "parameters" : [ "'养丁甘'", "'刘程旭'" ]
     }, {
-      "name" : "test_config[牧艳聂-]",
-      "uid" : "8cd80ff096069a0a",
+      "name" : "test_config[养丁甘-]",
+      "uid" : "6f88020739b2a68f",
       "parentUid" : "92dab6e8a459ee8d26d3310bd660eda3",
       "status" : "passed",
       "time" : {
-        "start" : 1582695663122,
-        "stop" : 1582695663171,
-        "duration" : 49
+        "start" : 1582779766832,
+        "stop" : 1582779766867,
+        "duration" : 35
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "'牧艳聂'", "''" ]
+      "parameters" : [ "'养丁甘'", "''" ]
     } ],
     "uid" : "TestSuite.CcsMerchantController.test_merchat_addorupdate.test_merchat_addorupdate"
-  } ]
+  } ],
+  "name" : "packages"
 }

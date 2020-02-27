@@ -1,6 +1,6 @@
 import pytest
 from utils import shell_tool
-from utils.dingding import dingding
+
 
 
 if __name__ == '__main__':
@@ -11,10 +11,8 @@ if __name__ == '__main__':
     # test_ding="utils/dingding.py"
     xml_allure = './allure/xml/'
     html_allure = './allure/html/'
-    pytest.main([ "-v","-s",'--alluredir',xml_allure,html_allure,
-                 test_case])
+    pytest.main([ "-v","-s",'--alluredir',xml_allure,html_allure,test_case])
 
-    pytest.main(dingding("执行成功"))
     cmd1 = 'allure generate %s -o %s --clean' % (
         xml_allure, html_allure)
     cmd2 = 'allure serve %s' % (xml_allure)

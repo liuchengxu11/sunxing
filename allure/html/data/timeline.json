@@ -1,52 +1,52 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-  "name" : "timeline",
   "children" : [ {
     "name" : "liuchengxudeMacBook-Pro.local",
     "children" : [ {
-      "name" : "15408-MainThread",
+      "name" : "21077-MainThread",
       "children" : [ {
-        "name" : "test_config[牧艳聂-]",
-        "uid" : "8cd80ff096069a0a",
-        "parentUid" : "bd3279740562ac45e5442bdce43db261",
+        "name" : "test_config[养丁甘-]",
+        "uid" : "6f88020739b2a68f",
+        "parentUid" : "2b4ef054dc06b6444c1832492f16b0f3",
         "status" : "passed",
         "time" : {
-          "start" : 1582695663122,
-          "stop" : 1582695663171,
-          "duration" : 49
+          "start" : 1582779766832,
+          "stop" : 1582779766867,
+          "duration" : 35
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'牧艳聂'", "''" ]
+        "parameters" : [ "'养丁甘'", "''" ]
       }, {
-        "name" : "test_config[牧艳聂-王琦]",
-        "uid" : "763c3f3135d6ea60",
-        "parentUid" : "bd3279740562ac45e5442bdce43db261",
+        "name" : "test_config[养丁甘-刘程旭]",
+        "uid" : "fa1255eff63860d0",
+        "parentUid" : "2b4ef054dc06b6444c1832492f16b0f3",
         "status" : "passed",
         "time" : {
-          "start" : 1582695662907,
-          "stop" : 1582695662989,
-          "duration" : 82
+          "start" : 1582779766734,
+          "stop" : 1582779766788,
+          "duration" : 54
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'牧艳聂'", "'王琦'" ]
+        "parameters" : [ "'养丁甘'", "'刘程旭'" ]
       }, {
-        "name" : "test_config[牧艳聂-刘程旭]",
-        "uid" : "497bff64491aa28",
-        "parentUid" : "bd3279740562ac45e5442bdce43db261",
+        "name" : "test_config[养丁甘-王琦]",
+        "uid" : "7fab4864c893c320",
+        "parentUid" : "2b4ef054dc06b6444c1832492f16b0f3",
         "status" : "passed",
         "time" : {
-          "start" : 1582695663030,
-          "stop" : 1582695663081,
-          "duration" : 51
+          "start" : 1582779766618,
+          "stop" : 1582779766698,
+          "duration" : 80
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'牧艳聂'", "'刘程旭'" ]
+        "parameters" : [ "'养丁甘'", "'王琦'" ]
       } ],
-      "uid" : "bd3279740562ac45e5442bdce43db261"
+      "uid" : "2b4ef054dc06b6444c1832492f16b0f3"
     } ],
     "uid" : "a1e0a2e782738ac758e4007b94ccfcf6"
-  } ]
+  } ],
+  "name" : "timeline"
 }
