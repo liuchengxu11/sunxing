@@ -6,7 +6,9 @@ from utils.random_tools import random_merchantName
 import json
 from Config.Config import SX_API_URl
 
-
+@allure.epic("隼骑士小程序")
+@allure.feature("小程序登陆")
+@allure.story("addorupdate_新增修改")
 class Test_config():
     merchantName = str(random_merchantName())
     prams = [(merchantName, "王琦"),

@@ -1,5 +1,0 @@
-{
-    "msg": "该商户名称已存在",
-    "code": 500,
-    "isSuccess": false
-}

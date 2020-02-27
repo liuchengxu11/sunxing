@@ -1,60 +1,30 @@
 [ {
-  "uid" : "46017027ffb92dc6",
-  "name" : "test_config[赏宫松-]",
+  "uid" : "497bff64491aa28",
+  "name" : "test_config[牧艳聂-刘程旭]",
   "time" : {
-    "start" : 1582689765276,
-    "stop" : 1582689765320,
-    "duration" : 44
+    "start" : 1582695663030,
+    "stop" : 1582695663081,
+    "duration" : 51
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "3fc1baf5fbcc8f9",
-  "name" : "test_config[赏宫松-王琦]",
+  "uid" : "8cd80ff096069a0a",
+  "name" : "test_config[牧艳聂-]",
   "time" : {
-    "start" : 1582689765064,
-    "stop" : 1582689765146,
+    "start" : 1582695663122,
+    "stop" : 1582695663171,
+    "duration" : 49
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "763c3f3135d6ea60",
+  "name" : "test_config[牧艳聂-王琦]",
+  "time" : {
+    "start" : 1582695662907,
+    "stop" : 1582695662989,
     "duration" : 82
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "29ab05abab28cf8f",
-  "name" : "test_config[璩仪志-王琦]",
-  "time" : {
-    "start" : 1582690830339,
-    "stop" : 1582690830423,
-    "duration" : 84
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2206e58eb9983c6b",
-  "name" : "test_config[赏宫松-刘程旭]",
-  "time" : {
-    "start" : 1582689765183,
-    "stop" : 1582689765238,
-    "duration" : 55
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1782b3df02be5a34",
-  "name" : "test_config[璩仪志-]",
-  "time" : {
-    "start" : 1582690830560,
-    "stop" : 1582690830602,
-    "duration" : 42
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bd62686a930e44fe",
-  "name" : "test_config[璩仪志-刘程旭]",
-  "time" : {
-    "start" : 1582690830467,
-    "stop" : 1582690830523,
-    "duration" : 56
   },
   "status" : "passed",
   "severity" : "normal"
