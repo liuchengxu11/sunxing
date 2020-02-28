@@ -5,11 +5,11 @@
     "name" : "TestSuite.CcsMerchantController.test_merchat_addorupdate",
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 3,
       "skipped" : 0,
-      "passed" : 12,
+      "passed" : 6,
       "unknown" : 0,
-      "total" : 12
+      "total" : 9
     }
   } ]
 }

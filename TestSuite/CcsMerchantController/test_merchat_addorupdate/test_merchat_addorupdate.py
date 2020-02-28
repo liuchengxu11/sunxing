@@ -1,27 +1,28 @@
 import pytest
 from utils.common import Common
-import time
 import allure
 from utils.random_tools import random_merchantName
+from Config.Config import SX_API_URl,login_headers
+
+
 import json
-from Config.Config import SX_API_URl
-from TestSuite.conftest import Conftest
 
 @allure.epic("隼骑士小程序")
 @allure.feature("小程序登陆")
 @allure.story("addorupdate_新增修改")
-class Test_config():
+class Test_addorupdate():
     merchantName = str(random_merchantName())
     prams = [(merchantName, "王琦"),
              (merchantName, "刘程旭"), (merchantName, "")]
 
     @pytest.mark.parametrize("test1,test2", prams)
-    def test_config(self, Conftest, test1, test2):
+    def test_addorupdate(self, Conftest, test1, test2):
         """
         /api/merchant/addOrUpdate 接口的公共配置
         """
-        with open('./Config/config_token', 'r', encoding='utf-8') as f:
-            token = f.read()
+        # with open('./Config/config_token', 'r', encoding='utf-8') as f:
+        #     token = f.read()
+
         uri1 = "/api/merchant/addOrUpdate"
         allure.attach(SX_API_URl + uri1, '地址', allure.attachment_type.TEXT)
         data1 = {
@@ -55,10 +56,11 @@ class Test_config():
             "mtMonthlySales": "",
             "intentionality": 2  # 意向度 0不满意 1一般 2满意 3非常满意
         }
-        headers1 = {
-            'content-type': 'application/json',
-            'token': token
-        }
+        # headers1 = {
+        #     'content-type': 'application/json',
+        #     'token': token
+        # }
+        headers1 = login_headers
         allure.attach(
             json.dumps(
                 data1,

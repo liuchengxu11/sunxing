@@ -1,37 +1,28 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Thu Feb 27 18:19:52 CST 2020","Thu Feb 27 18:19:52 CST 2020","54","TestSuite.CcsMerchantController.test_merchat_addorupdate","test_merchat_addorupdate","Test_config","","","test_config[葛秀亨-刘程旭]","
+"passed","Fri Feb 28 18:19:08 CST 2020","Fri Feb 28 18:19:08 CST 2020","43","TestSuite.CcsMerchantController.test_merchat_addorupdate","test_merchat_addorupdate","Test_addorupdate","","","test_addorupdate[叔黛暨-]","
         /api/merchant/addOrUpdate 接口的公共配置
         "
-"passed","Fri Feb 28 10:21:44 CST 2020","Fri Feb 28 10:21:44 CST 2020","48","TestSuite.CcsMerchantController.test_merchat_addorupdate","test_merchat_addorupdate","Test_config","","","test_config[慎郏庆-刘程旭]","
+"broken","Fri Feb 28 18:23:12 CST 2020","Fri Feb 28 18:23:12 CST 2020","0","TestSuite.CcsMerchantController.test_merchat_addorupdate","test_merchat_addorupdate","Test_addorupdate","","","test_addorupdate[屠羊牧-王琦]","
         /api/merchant/addOrUpdate 接口的公共配置
         "
-"passed","Thu Feb 27 18:19:53 CST 2020","Thu Feb 27 18:19:53 CST 2020","34","TestSuite.CcsMerchantController.test_merchat_addorupdate","test_merchat_addorupdate","Test_config","","","test_config[葛秀亨-]","
+"broken","Fri Feb 28 18:23:12 CST 2020","Fri Feb 28 18:23:12 CST 2020","0","TestSuite.CcsMerchantController.test_merchat_addorupdate","test_merchat_addorupdate","Test_addorupdate","","","test_addorupdate[屠羊牧-]","
         /api/merchant/addOrUpdate 接口的公共配置
         "
-"passed","Thu Feb 27 18:12:01 CST 2020","Thu Feb 27 18:12:01 CST 2020","60","TestSuite.CcsMerchantController.test_merchat_addorupdate","test_merchat_addorupdate","Test_config","","","test_config[袁静启-刘程旭]","
+"passed","Fri Feb 28 18:19:08 CST 2020","Fri Feb 28 18:19:08 CST 2020","52","TestSuite.CcsMerchantController.test_merchat_addorupdate","test_merchat_addorupdate","Test_addorupdate","","","test_addorupdate[叔黛暨-刘程旭]","
         /api/merchant/addOrUpdate 接口的公共配置
         "
-"passed","Thu Feb 27 18:12:01 CST 2020","Thu Feb 27 18:12:01 CST 2020","41","TestSuite.CcsMerchantController.test_merchat_addorupdate","test_merchat_addorupdate","Test_config","","","test_config[袁静启-]","
+"broken","Fri Feb 28 18:23:12 CST 2020","Fri Feb 28 18:23:12 CST 2020","0","TestSuite.CcsMerchantController.test_merchat_addorupdate","test_merchat_addorupdate","Test_addorupdate","","","test_addorupdate[屠羊牧-刘程旭]","
         /api/merchant/addOrUpdate 接口的公共配置
         "
-"passed","Thu Feb 27 18:19:52 CST 2020","Thu Feb 27 18:19:52 CST 2020","76","TestSuite.CcsMerchantController.test_merchat_addorupdate","test_merchat_addorupdate","Test_config","","","test_config[葛秀亨-王琦]","
+"passed","Fri Feb 28 18:25:24 CST 2020","Fri Feb 28 18:25:24 CST 2020","84","TestSuite.CcsMerchantController.test_merchat_addorupdate","test_merchat_addorupdate","Test_addorupdate","","","test_addorupdate[农馥平-王琦]","
         /api/merchant/addOrUpdate 接口的公共配置
         "
-"passed","Thu Feb 27 18:40:47 CST 2020","Thu Feb 27 18:40:47 CST 2020","90","TestSuite.CcsMerchantController.test_merchat_addorupdate","test_merchat_addorupdate","Test_config","","","test_config[阎丁查-王琦]","
+"passed","Fri Feb 28 18:25:24 CST 2020","Fri Feb 28 18:25:24 CST 2020","56","TestSuite.CcsMerchantController.test_merchat_addorupdate","test_merchat_addorupdate","Test_addorupdate","","","test_addorupdate[农馥平-刘程旭]","
         /api/merchant/addOrUpdate 接口的公共配置
         "
-"passed","Thu Feb 27 18:12:01 CST 2020","Thu Feb 27 18:12:01 CST 2020","78","TestSuite.CcsMerchantController.test_merchat_addorupdate","test_merchat_addorupdate","Test_config","","","test_config[袁静启-王琦]","
+"passed","Fri Feb 28 18:25:24 CST 2020","Fri Feb 28 18:25:24 CST 2020","42","TestSuite.CcsMerchantController.test_merchat_addorupdate","test_merchat_addorupdate","Test_addorupdate","","","test_addorupdate[农馥平-]","
         /api/merchant/addOrUpdate 接口的公共配置
         "
-"passed","Fri Feb 28 10:21:44 CST 2020","Fri Feb 28 10:21:44 CST 2020","31","TestSuite.CcsMerchantController.test_merchat_addorupdate","test_merchat_addorupdate","Test_config","","","test_config[慎郏庆-]","
-        /api/merchant/addOrUpdate 接口的公共配置
-        "
-"passed","Thu Feb 27 18:40:47 CST 2020","Thu Feb 27 18:40:47 CST 2020","39","TestSuite.CcsMerchantController.test_merchat_addorupdate","test_merchat_addorupdate","Test_config","","","test_config[阎丁查-]","
-        /api/merchant/addOrUpdate 接口的公共配置
-        "
-"passed","Fri Feb 28 10:21:44 CST 2020","Fri Feb 28 10:21:44 CST 2020","78","TestSuite.CcsMerchantController.test_merchat_addorupdate","test_merchat_addorupdate","Test_config","","","test_config[慎郏庆-王琦]","
-        /api/merchant/addOrUpdate 接口的公共配置
-        "
-"passed","Thu Feb 27 18:40:47 CST 2020","Thu Feb 27 18:40:47 CST 2020","48","TestSuite.CcsMerchantController.test_merchat_addorupdate","test_merchat_addorupdate","Test_config","","","test_config[阎丁查-刘程旭]","
+"passed","Fri Feb 28 18:19:08 CST 2020","Fri Feb 28 18:19:08 CST 2020","83","TestSuite.CcsMerchantController.test_merchat_addorupdate","test_merchat_addorupdate","Test_addorupdate","","","test_addorupdate[叔黛暨-王琦]","
         /api/merchant/addOrUpdate 接口的公共配置
         "

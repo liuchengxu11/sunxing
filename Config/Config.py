@@ -13,3 +13,11 @@ SX_DB_PASS="DPNLRMaZPZdX3WHk"
 User_account="zhangtingting"
 
 User_password="000000"
+
+
+login_headers = {
+    'content-type': 'application/json',
+}
+
+
+

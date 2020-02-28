@@ -1,181 +1,138 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-  "name" : "timeline",
   "children" : [ {
     "name" : "liuchengxudeMacBook-Pro.local",
     "children" : [ {
-      "name" : "25321-MainThread",
+      "name" : "28499-MainThread",
       "children" : [ {
-        "name" : "test_config[慎郏庆-王琦]",
-        "uid" : "72b3e138981de654",
-        "parentUid" : "8e0b69d32d488e45359bd4f74154fa45",
+        "name" : "test_addorupdate[叔黛暨-王琦]",
+        "uid" : "5ccf3dded71ebbe3",
+        "parentUid" : "701a69dd690ce9e396eb20235f41b50c",
         "status" : "passed",
         "time" : {
-          "start" : 1582856504725,
-          "stop" : 1582856504803,
-          "duration" : 78
+          "start" : 1582885148731,
+          "stop" : 1582885148814,
+          "duration" : 83
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'慎郏庆'", "'王琦'" ]
+        "parameters" : [ "'叔黛暨'", "'王琦'" ]
       }, {
-        "name" : "test_config[慎郏庆-刘程旭]",
-        "uid" : "22125c03499e2c94",
-        "parentUid" : "8e0b69d32d488e45359bd4f74154fa45",
+        "name" : "test_addorupdate[叔黛暨-]",
+        "uid" : "1dfcf2cbd3a9f273",
+        "parentUid" : "701a69dd690ce9e396eb20235f41b50c",
         "status" : "passed",
         "time" : {
-          "start" : 1582856504839,
-          "stop" : 1582856504887,
-          "duration" : 48
+          "start" : 1582885148943,
+          "stop" : 1582885148986,
+          "duration" : 43
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'慎郏庆'", "'刘程旭'" ]
+        "parameters" : [ "'叔黛暨'", "''" ]
       }, {
-        "name" : "test_config[慎郏庆-]",
-        "uid" : "6e723d281c98485f",
-        "parentUid" : "8e0b69d32d488e45359bd4f74154fa45",
+        "name" : "test_addorupdate[叔黛暨-刘程旭]",
+        "uid" : "27b03460b7e62506",
+        "parentUid" : "701a69dd690ce9e396eb20235f41b50c",
         "status" : "passed",
         "time" : {
-          "start" : 1582856504916,
-          "stop" : 1582856504947,
-          "duration" : 31
+          "start" : 1582885148853,
+          "stop" : 1582885148905,
+          "duration" : 52
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'慎郏庆'", "''" ]
+        "parameters" : [ "'叔黛暨'", "'刘程旭'" ]
       } ],
-      "uid" : "8e0b69d32d488e45359bd4f74154fa45"
+      "uid" : "701a69dd690ce9e396eb20235f41b50c"
     }, {
-      "name" : "22318-MainThread",
+      "name" : "28583-MainThread",
       "children" : [ {
-        "name" : "test_config[袁静启-王琦]",
-        "uid" : "5604854b12e9438c",
-        "parentUid" : "b190246cff4fe8cf4f895440aa2963c2",
-        "status" : "passed",
+        "name" : "test_addorupdate[屠羊牧-]",
+        "uid" : "75b2f11162c7e31b",
+        "parentUid" : "01b66b62e5c667243bcd31ca01817d46",
+        "status" : "broken",
         "time" : {
-          "start" : 1582798321469,
-          "stop" : 1582798321547,
-          "duration" : 78
+          "start" : 1582885392414,
+          "stop" : 1582885392414,
+          "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'袁静启'", "'王琦'" ]
+        "parameters" : [ "'屠羊牧'", "''" ]
       }, {
-        "name" : "test_config[袁静启-刘程旭]",
-        "uid" : "1f086416d5bca6fa",
-        "parentUid" : "b190246cff4fe8cf4f895440aa2963c2",
-        "status" : "passed",
+        "name" : "test_addorupdate[屠羊牧-刘程旭]",
+        "uid" : "54c853827e3be40c",
+        "parentUid" : "01b66b62e5c667243bcd31ca01817d46",
+        "status" : "broken",
         "time" : {
-          "start" : 1582798321595,
-          "stop" : 1582798321655,
-          "duration" : 60
+          "start" : 1582885392407,
+          "stop" : 1582885392407,
+          "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'袁静启'", "'刘程旭'" ]
+        "parameters" : [ "'屠羊牧'", "'刘程旭'" ]
       }, {
-        "name" : "test_config[袁静启-]",
-        "uid" : "46f331b07f2ff3ea",
-        "parentUid" : "b190246cff4fe8cf4f895440aa2963c2",
-        "status" : "passed",
+        "name" : "test_addorupdate[屠羊牧-王琦]",
+        "uid" : "40ba47df945fff",
+        "parentUid" : "01b66b62e5c667243bcd31ca01817d46",
+        "status" : "broken",
         "time" : {
-          "start" : 1582798321695,
-          "stop" : 1582798321736,
-          "duration" : 41
+          "start" : 1582885392395,
+          "stop" : 1582885392395,
+          "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'袁静启'", "''" ]
+        "parameters" : [ "'屠羊牧'", "'王琦'" ]
       } ],
-      "uid" : "b190246cff4fe8cf4f895440aa2963c2"
+      "uid" : "01b66b62e5c667243bcd31ca01817d46"
     }, {
-      "name" : "22540-MainThread",
+      "name" : "28653-MainThread",
       "children" : [ {
-        "name" : "test_config[阎丁查-]",
-        "uid" : "24f6f965c1364b56",
-        "parentUid" : "f2c37e1f9b80f3675d33c5664d870be3",
+        "name" : "test_addorupdate[农馥平-]",
+        "uid" : "bc3224796229d226",
+        "parentUid" : "b69f3b4a663e294c7231ffaf647864d1",
         "status" : "passed",
         "time" : {
-          "start" : 1582800047879,
-          "stop" : 1582800047918,
-          "duration" : 39
+          "start" : 1582885524252,
+          "stop" : 1582885524294,
+          "duration" : 42
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'阎丁查'", "''" ]
+        "parameters" : [ "'农馥平'", "''" ]
       }, {
-        "name" : "test_config[阎丁查-王琦]",
-        "uid" : "d580bb83d75ea554",
-        "parentUid" : "f2c37e1f9b80f3675d33c5664d870be3",
+        "name" : "test_addorupdate[农馥平-刘程旭]",
+        "uid" : "303d450578e90bfa",
+        "parentUid" : "b69f3b4a663e294c7231ffaf647864d1",
         "status" : "passed",
         "time" : {
-          "start" : 1582800047663,
-          "stop" : 1582800047753,
-          "duration" : 90
+          "start" : 1582885524160,
+          "stop" : 1582885524216,
+          "duration" : 56
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'阎丁查'", "'王琦'" ]
+        "parameters" : [ "'农馥平'", "'刘程旭'" ]
       }, {
-        "name" : "test_config[阎丁查-刘程旭]",
-        "uid" : "a14f9a77f283b285",
-        "parentUid" : "f2c37e1f9b80f3675d33c5664d870be3",
+        "name" : "test_addorupdate[农馥平-王琦]",
+        "uid" : "84f4641321174728",
+        "parentUid" : "b69f3b4a663e294c7231ffaf647864d1",
         "status" : "passed",
         "time" : {
-          "start" : 1582800047792,
-          "stop" : 1582800047840,
-          "duration" : 48
+          "start" : 1582885524040,
+          "stop" : 1582885524124,
+          "duration" : 84
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'阎丁查'", "'刘程旭'" ]
+        "parameters" : [ "'农馥平'", "'王琦'" ]
       } ],
-      "uid" : "f2c37e1f9b80f3675d33c5664d870be3"
-    }, {
-      "name" : "22384-MainThread",
-      "children" : [ {
-        "name" : "test_config[葛秀亨-]",
-        "uid" : "5781c8404cf5b227",
-        "parentUid" : "814e1c1ffb2f2c234696039f601db77b",
-        "status" : "passed",
-        "time" : {
-          "start" : 1582798793008,
-          "stop" : 1582798793042,
-          "duration" : 34
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'葛秀亨'", "''" ]
-      }, {
-        "name" : "test_config[葛秀亨-王琦]",
-        "uid" : "75ee52e7549487f9",
-        "parentUid" : "814e1c1ffb2f2c234696039f601db77b",
-        "status" : "passed",
-        "time" : {
-          "start" : 1582798792788,
-          "stop" : 1582798792864,
-          "duration" : 76
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'葛秀亨'", "'王琦'" ]
-      }, {
-        "name" : "test_config[葛秀亨-刘程旭]",
-        "uid" : "ada12be13e1ae9e0",
-        "parentUid" : "814e1c1ffb2f2c234696039f601db77b",
-        "status" : "passed",
-        "time" : {
-          "start" : 1582798792919,
-          "stop" : 1582798792973,
-          "duration" : 54
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'葛秀亨'", "'刘程旭'" ]
-      } ],
-      "uid" : "814e1c1ffb2f2c234696039f601db77b"
+      "uid" : "b69f3b4a663e294c7231ffaf647864d1"
     } ],
     "uid" : "a1e0a2e782738ac758e4007b94ccfcf6"
-  } ]
+  } ],
+  "name" : "timeline"
 }

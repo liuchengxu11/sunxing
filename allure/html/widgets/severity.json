@@ -1,121 +1,91 @@
 [ {
-  "uid" : "72b3e138981de654",
-  "name" : "test_config[慎郏庆-王琦]",
+  "uid" : "27b03460b7e62506",
+  "name" : "test_addorupdate[叔黛暨-刘程旭]",
   "time" : {
-    "start" : 1582856504725,
-    "stop" : 1582856504803,
-    "duration" : 78
+    "start" : 1582885148853,
+    "stop" : 1582885148905,
+    "duration" : 52
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "22125c03499e2c94",
-  "name" : "test_config[慎郏庆-刘程旭]",
+  "uid" : "5ccf3dded71ebbe3",
+  "name" : "test_addorupdate[叔黛暨-王琦]",
   "time" : {
-    "start" : 1582856504839,
-    "stop" : 1582856504887,
-    "duration" : 48
+    "start" : 1582885148731,
+    "stop" : 1582885148814,
+    "duration" : 83
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "5781c8404cf5b227",
-  "name" : "test_config[葛秀亨-]",
+  "uid" : "84f4641321174728",
+  "name" : "test_addorupdate[农馥平-王琦]",
   "time" : {
-    "start" : 1582798793008,
-    "stop" : 1582798793042,
-    "duration" : 34
+    "start" : 1582885524040,
+    "stop" : 1582885524124,
+    "duration" : 84
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "1f086416d5bca6fa",
-  "name" : "test_config[袁静启-刘程旭]",
+  "uid" : "40ba47df945fff",
+  "name" : "test_addorupdate[屠羊牧-王琦]",
   "time" : {
-    "start" : 1582798321595,
-    "stop" : 1582798321655,
-    "duration" : 60
+    "start" : 1582885392395,
+    "stop" : 1582885392395,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "303d450578e90bfa",
+  "name" : "test_addorupdate[农馥平-刘程旭]",
+  "time" : {
+    "start" : 1582885524160,
+    "stop" : 1582885524216,
+    "duration" : 56
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "46f331b07f2ff3ea",
-  "name" : "test_config[袁静启-]",
+  "uid" : "1dfcf2cbd3a9f273",
+  "name" : "test_addorupdate[叔黛暨-]",
   "time" : {
-    "start" : 1582798321695,
-    "stop" : 1582798321736,
-    "duration" : 41
+    "start" : 1582885148943,
+    "stop" : 1582885148986,
+    "duration" : 43
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "75ee52e7549487f9",
-  "name" : "test_config[葛秀亨-王琦]",
+  "uid" : "bc3224796229d226",
+  "name" : "test_addorupdate[农馥平-]",
   "time" : {
-    "start" : 1582798792788,
-    "stop" : 1582798792864,
-    "duration" : 76
+    "start" : 1582885524252,
+    "stop" : 1582885524294,
+    "duration" : 42
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "24f6f965c1364b56",
-  "name" : "test_config[阎丁查-]",
+  "uid" : "75b2f11162c7e31b",
+  "name" : "test_addorupdate[屠羊牧-]",
   "time" : {
-    "start" : 1582800047879,
-    "stop" : 1582800047918,
-    "duration" : 39
+    "start" : 1582885392414,
+    "stop" : 1582885392414,
+    "duration" : 0
   },
-  "status" : "passed",
+  "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "6e723d281c98485f",
-  "name" : "test_config[慎郏庆-]",
+  "uid" : "54c853827e3be40c",
+  "name" : "test_addorupdate[屠羊牧-刘程旭]",
   "time" : {
-    "start" : 1582856504916,
-    "stop" : 1582856504947,
-    "duration" : 31
+    "start" : 1582885392407,
+    "stop" : 1582885392407,
+    "duration" : 0
   },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a14f9a77f283b285",
-  "name" : "test_config[阎丁查-刘程旭]",
-  "time" : {
-    "start" : 1582800047792,
-    "stop" : 1582800047840,
-    "duration" : 48
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d580bb83d75ea554",
-  "name" : "test_config[阎丁查-王琦]",
-  "time" : {
-    "start" : 1582800047663,
-    "stop" : 1582800047753,
-    "duration" : 90
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ada12be13e1ae9e0",
-  "name" : "test_config[葛秀亨-刘程旭]",
-  "time" : {
-    "start" : 1582798792919,
-    "stop" : 1582798792973,
-    "duration" : 54
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5604854b12e9438c",
-  "name" : "test_config[袁静启-王琦]",
-  "time" : {
-    "start" : 1582798321469,
-    "stop" : 1582798321547,
-    "duration" : 78
-  },
-  "status" : "passed",
+  "status" : "broken",
   "severity" : "normal"
 } ]

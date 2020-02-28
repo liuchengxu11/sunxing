@@ -1,6 +1,6 @@
 import pytest
 import allure
-from Config.Config import User_password, User_account
+from Config.Config import User_password, User_account,login_headers
 from utils.common import Common
 import json
 from Config.Config import SX_API_URl
@@ -29,8 +29,9 @@ def Conftest():
     code1 = json.loads(response.text)['code']
     if  code == 200 and code1==0:
         msg = response.json().get('msg')
-        with open('./Config/config_token', 'w', encoding='utf-8') as f:
-            f.write(msg)
+        # with open('./Config/config_token', 'w', encoding='utf-8') as f:
+        #     f.write(msg)
+        login_headers["token"]=msg
         print("Conftest——成功")
     else:
         print("Conftest——失败")

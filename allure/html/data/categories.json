@@ -1,5 +1,60 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "_pytest.fixtures.FixtureLookupError: ('Conftest', <FixtureRequest for <Function test_addorupdate[\\u5c60\\u7f8a\\u7267-\\u738b\\u7426]>>)",
+      "children" : [ {
+        "name" : "test_addorupdate[屠羊牧-王琦]",
+        "uid" : "40ba47df945fff",
+        "parentUid" : "3ebb4915ae3b078e9b2f02e841b50ba9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1582885392395,
+          "stop" : 1582885392395,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'屠羊牧'", "'王琦'" ]
+      } ],
+      "uid" : "3ebb4915ae3b078e9b2f02e841b50ba9"
+    }, {
+      "name" : "_pytest.fixtures.FixtureLookupError: ('Conftest', <FixtureRequest for <Function test_addorupdate[\\u5c60\\u7f8a\\u7267-\\u5218\\u7a0b\\u65ed]>>)",
+      "children" : [ {
+        "name" : "test_addorupdate[屠羊牧-刘程旭]",
+        "uid" : "54c853827e3be40c",
+        "parentUid" : "4411b9c0b3f56f5090946179697764b4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1582885392407,
+          "stop" : 1582885392407,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'屠羊牧'", "'刘程旭'" ]
+      } ],
+      "uid" : "4411b9c0b3f56f5090946179697764b4"
+    }, {
+      "name" : "_pytest.fixtures.FixtureLookupError: ('Conftest', <FixtureRequest for <Function test_addorupdate[\\u5c60\\u7f8a\\u7267-]>>)",
+      "children" : [ {
+        "name" : "test_addorupdate[屠羊牧-]",
+        "uid" : "75b2f11162c7e31b",
+        "parentUid" : "7c52d786dca1b67373a12cd4aae0fb49",
+        "status" : "broken",
+        "time" : {
+          "start" : 1582885392414,
+          "stop" : 1582885392414,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'屠羊牧'", "''" ]
+      } ],
+      "uid" : "7c52d786dca1b67373a12cd4aae0fb49"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
 }

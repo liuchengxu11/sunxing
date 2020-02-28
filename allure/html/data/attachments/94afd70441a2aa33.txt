@@ -1,0 +1,4 @@
+{
+    "content-type": "application/json",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkZXB0TmFtZSI6IumavOihjCIsInBob25lIjoiIiwidXNlclV1aWQiOiI0OTdlYWM5ZS00ZDViLTExZWEtYjMxZS0wMDE2M2UwMmE2NzEiLCJ1c2VyTmFtZSI6InpoYW5ndGluZ3RpbmciLCJleHAiOjE1ODI5Mjg3MjMsImFjY291bnQiOiJ6aGFuZ3Rpbmd0aW5nIn0.m57TArV2yJxVtWDx1hN6s_jq17E0W7XlfpaL6_w1Jp8"
+}
