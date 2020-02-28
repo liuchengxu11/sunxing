@@ -1,35 +1,15 @@
 [ {
-  "uid" : "1dfcf2cbd3a9f273",
-  "name" : "test_addorupdate[叔黛暨-]",
+  "uid" : "fb118816b5038e26",
+  "name" : "test_addorupdate[能珍诚-刘程旭]",
   "time" : {
-    "start" : 1582885148943,
-    "stop" : 1582885148986,
-    "duration" : 43
+    "start" : 1582886066930,
+    "stop" : 1582886066976,
+    "duration" : 46
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "40ba47df945fff",
-  "name" : "test_addorupdate[屠羊牧-王琦]",
-  "time" : {
-    "start" : 1582885392395,
-    "stop" : 1582885392395,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "75b2f11162c7e31b",
-  "name" : "test_addorupdate[屠羊牧-]",
-  "time" : {
-    "start" : 1582885392414,
-    "stop" : 1582885392414,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "27b03460b7e62506",
+  "uid" : "4fabf8d750862b76",
   "name" : "test_addorupdate[叔黛暨-刘程旭]",
   "time" : {
     "start" : 1582885148853,
@@ -39,7 +19,7 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "54c853827e3be40c",
+  "uid" : "ca977e6c4069f4d3",
   "name" : "test_addorupdate[屠羊牧-刘程旭]",
   "time" : {
     "start" : 1582885392407,
@@ -49,17 +29,7 @@
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "84f4641321174728",
-  "name" : "test_addorupdate[农馥平-王琦]",
-  "time" : {
-    "start" : 1582885524040,
-    "stop" : 1582885524124,
-    "duration" : 84
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "303d450578e90bfa",
+  "uid" : "7bf54a0ee90a3728",
   "name" : "test_addorupdate[农馥平-刘程旭]",
   "time" : {
     "start" : 1582885524160,
@@ -69,7 +39,67 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "bc3224796229d226",
+  "uid" : "260fdb3b34b6f5e1",
+  "name" : "test_addorupdate[屠羊牧-]",
+  "time" : {
+    "start" : 1582885392414,
+    "stop" : 1582885392414,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c6fc71b01f88bfd0",
+  "name" : "test_addorupdate[叔黛暨-]",
+  "time" : {
+    "start" : 1582885148943,
+    "stop" : 1582885148986,
+    "duration" : 43
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "384c0edecdf4b770",
+  "name" : "test_addorupdate[能珍诚-]",
+  "time" : {
+    "start" : 1582886067010,
+    "stop" : 1582886067043,
+    "duration" : 33
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fb2a15efbaf42abc",
+  "name" : "test_addorupdate[师珍心-王琦]",
+  "time" : {
+    "start" : 1582886146465,
+    "stop" : 1582886146544,
+    "duration" : 79
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8cc61e0fb46bcf8f",
+  "name" : "test_addorupdate[屠羊牧-王琦]",
+  "time" : {
+    "start" : 1582885392395,
+    "stop" : 1582885392395,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1c946a52cc480e0e",
+  "name" : "test_addorupdate[农馥平-王琦]",
+  "time" : {
+    "start" : 1582885524040,
+    "stop" : 1582885524124,
+    "duration" : 84
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "92fe84dde8258013",
   "name" : "test_addorupdate[农馥平-]",
   "time" : {
     "start" : 1582885524252,
@@ -79,7 +109,37 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "5ccf3dded71ebbe3",
+  "uid" : "5d0342adda376932",
+  "name" : "test_addorupdate[能珍诚-王琦]",
+  "time" : {
+    "start" : 1582886066819,
+    "stop" : 1582886066895,
+    "duration" : 76
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "97a18b0f6f408916",
+  "name" : "test_addorupdate[师珍心-]",
+  "time" : {
+    "start" : 1582886146677,
+    "stop" : 1582886146713,
+    "duration" : 36
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "712122f065c7703e",
+  "name" : "test_addorupdate[师珍心-刘程旭]",
+  "time" : {
+    "start" : 1582886146585,
+    "stop" : 1582886146641,
+    "duration" : 56
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ea229191799073aa",
   "name" : "test_addorupdate[叔黛暨-王琦]",
   "time" : {
     "start" : 1582885148731,

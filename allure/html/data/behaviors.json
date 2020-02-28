@@ -8,7 +8,7 @@
         "name" : "addorupdate_新增修改",
         "children" : [ {
           "name" : "test_addorupdate[叔黛暨-王琦]",
-          "uid" : "5ccf3dded71ebbe3",
+          "uid" : "ea229191799073aa",
           "parentUid" : "f8cb68e52006dbe085109fe60e6a6cf3",
           "status" : "passed",
           "time" : {
@@ -21,7 +21,7 @@
           "parameters" : [ "'叔黛暨'", "'王琦'" ]
         }, {
           "name" : "test_addorupdate[叔黛暨-刘程旭]",
-          "uid" : "27b03460b7e62506",
+          "uid" : "4fabf8d750862b76",
           "parentUid" : "f8cb68e52006dbe085109fe60e6a6cf3",
           "status" : "passed",
           "time" : {
@@ -34,7 +34,7 @@
           "parameters" : [ "'叔黛暨'", "'刘程旭'" ]
         }, {
           "name" : "test_addorupdate[叔黛暨-]",
-          "uid" : "1dfcf2cbd3a9f273",
+          "uid" : "c6fc71b01f88bfd0",
           "parentUid" : "f8cb68e52006dbe085109fe60e6a6cf3",
           "status" : "passed",
           "time" : {
@@ -47,7 +47,7 @@
           "parameters" : [ "'叔黛暨'", "''" ]
         }, {
           "name" : "test_addorupdate[屠羊牧-王琦]",
-          "uid" : "40ba47df945fff",
+          "uid" : "8cc61e0fb46bcf8f",
           "parentUid" : "f8cb68e52006dbe085109fe60e6a6cf3",
           "status" : "broken",
           "time" : {
@@ -60,7 +60,7 @@
           "parameters" : [ "'屠羊牧'", "'王琦'" ]
         }, {
           "name" : "test_addorupdate[屠羊牧-刘程旭]",
-          "uid" : "54c853827e3be40c",
+          "uid" : "ca977e6c4069f4d3",
           "parentUid" : "f8cb68e52006dbe085109fe60e6a6cf3",
           "status" : "broken",
           "time" : {
@@ -73,7 +73,7 @@
           "parameters" : [ "'屠羊牧'", "'刘程旭'" ]
         }, {
           "name" : "test_addorupdate[屠羊牧-]",
-          "uid" : "75b2f11162c7e31b",
+          "uid" : "260fdb3b34b6f5e1",
           "parentUid" : "f8cb68e52006dbe085109fe60e6a6cf3",
           "status" : "broken",
           "time" : {
@@ -86,7 +86,7 @@
           "parameters" : [ "'屠羊牧'", "''" ]
         }, {
           "name" : "test_addorupdate[农馥平-王琦]",
-          "uid" : "84f4641321174728",
+          "uid" : "1c946a52cc480e0e",
           "parentUid" : "f8cb68e52006dbe085109fe60e6a6cf3",
           "status" : "passed",
           "time" : {
@@ -99,7 +99,7 @@
           "parameters" : [ "'农馥平'", "'王琦'" ]
         }, {
           "name" : "test_addorupdate[农馥平-刘程旭]",
-          "uid" : "303d450578e90bfa",
+          "uid" : "7bf54a0ee90a3728",
           "parentUid" : "f8cb68e52006dbe085109fe60e6a6cf3",
           "status" : "passed",
           "time" : {
@@ -112,7 +112,7 @@
           "parameters" : [ "'农馥平'", "'刘程旭'" ]
         }, {
           "name" : "test_addorupdate[农馥平-]",
-          "uid" : "bc3224796229d226",
+          "uid" : "92fe84dde8258013",
           "parentUid" : "f8cb68e52006dbe085109fe60e6a6cf3",
           "status" : "passed",
           "time" : {
@@ -123,6 +123,84 @@
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ "'农馥平'", "''" ]
+        }, {
+          "name" : "test_addorupdate[能珍诚-王琦]",
+          "uid" : "5d0342adda376932",
+          "parentUid" : "f8cb68e52006dbe085109fe60e6a6cf3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1582886066819,
+            "stop" : 1582886066895,
+            "duration" : 76
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'能珍诚'", "'王琦'" ]
+        }, {
+          "name" : "test_addorupdate[能珍诚-刘程旭]",
+          "uid" : "fb118816b5038e26",
+          "parentUid" : "f8cb68e52006dbe085109fe60e6a6cf3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1582886066930,
+            "stop" : 1582886066976,
+            "duration" : 46
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'能珍诚'", "'刘程旭'" ]
+        }, {
+          "name" : "test_addorupdate[能珍诚-]",
+          "uid" : "384c0edecdf4b770",
+          "parentUid" : "f8cb68e52006dbe085109fe60e6a6cf3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1582886067010,
+            "stop" : 1582886067043,
+            "duration" : 33
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'能珍诚'", "''" ]
+        }, {
+          "name" : "test_addorupdate[师珍心-王琦]",
+          "uid" : "fb2a15efbaf42abc",
+          "parentUid" : "f8cb68e52006dbe085109fe60e6a6cf3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1582886146465,
+            "stop" : 1582886146544,
+            "duration" : 79
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'师珍心'", "'王琦'" ]
+        }, {
+          "name" : "test_addorupdate[师珍心-刘程旭]",
+          "uid" : "712122f065c7703e",
+          "parentUid" : "f8cb68e52006dbe085109fe60e6a6cf3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1582886146585,
+            "stop" : 1582886146641,
+            "duration" : 56
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'师珍心'", "'刘程旭'" ]
+        }, {
+          "name" : "test_addorupdate[师珍心-]",
+          "uid" : "97a18b0f6f408916",
+          "parentUid" : "f8cb68e52006dbe085109fe60e6a6cf3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1582886146677,
+            "stop" : 1582886146713,
+            "duration" : 36
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'师珍心'", "''" ]
         } ],
         "uid" : "f8cb68e52006dbe085109fe60e6a6cf3"
       } ],

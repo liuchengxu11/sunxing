@@ -6,7 +6,7 @@
       "name" : "_pytest.fixtures.FixtureLookupError: ('Conftest', <FixtureRequest for <Function test_addorupdate[\\u5c60\\u7f8a\\u7267-\\u738b\\u7426]>>)",
       "children" : [ {
         "name" : "test_addorupdate[屠羊牧-王琦]",
-        "uid" : "40ba47df945fff",
+        "uid" : "8cc61e0fb46bcf8f",
         "parentUid" : "3ebb4915ae3b078e9b2f02e841b50ba9",
         "status" : "broken",
         "time" : {
@@ -23,7 +23,7 @@
       "name" : "_pytest.fixtures.FixtureLookupError: ('Conftest', <FixtureRequest for <Function test_addorupdate[\\u5c60\\u7f8a\\u7267-\\u5218\\u7a0b\\u65ed]>>)",
       "children" : [ {
         "name" : "test_addorupdate[屠羊牧-刘程旭]",
-        "uid" : "54c853827e3be40c",
+        "uid" : "ca977e6c4069f4d3",
         "parentUid" : "4411b9c0b3f56f5090946179697764b4",
         "status" : "broken",
         "time" : {
@@ -40,7 +40,7 @@
       "name" : "_pytest.fixtures.FixtureLookupError: ('Conftest', <FixtureRequest for <Function test_addorupdate[\\u5c60\\u7f8a\\u7267-]>>)",
       "children" : [ {
         "name" : "test_addorupdate[屠羊牧-]",
-        "uid" : "75b2f11162c7e31b",
+        "uid" : "260fdb3b34b6f5e1",
         "parentUid" : "7c52d786dca1b67373a12cd4aae0fb49",
         "status" : "broken",
         "time" : {
