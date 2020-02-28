@@ -1,5 +1,6 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
   "children" : [ {
     "name" : "TestSuite.CcsMerchantController.test_merchat_addorupdate",
     "children" : [ {
@@ -7,50 +8,166 @@
       "children" : [ {
         "name" : "Test_config",
         "children" : [ {
-          "name" : "test_config[养丁甘-王琦]",
-          "uid" : "7fab4864c893c320",
+          "name" : "test_config[袁静启-王琦]",
+          "uid" : "5604854b12e9438c",
           "parentUid" : "2b6aaf7557b4e27fe12b191a5380b5b8",
           "status" : "passed",
           "time" : {
-            "start" : 1582779766618,
-            "stop" : 1582779766698,
-            "duration" : 80
+            "start" : 1582798321469,
+            "stop" : 1582798321547,
+            "duration" : 78
           },
           "flaky" : false,
           "newFailed" : false,
-          "parameters" : [ "'养丁甘'", "'王琦'" ]
+          "parameters" : [ "'袁静启'", "'王琦'" ]
         }, {
-          "name" : "test_config[养丁甘-刘程旭]",
-          "uid" : "fa1255eff63860d0",
+          "name" : "test_config[袁静启-刘程旭]",
+          "uid" : "1f086416d5bca6fa",
           "parentUid" : "2b6aaf7557b4e27fe12b191a5380b5b8",
           "status" : "passed",
           "time" : {
-            "start" : 1582779766734,
-            "stop" : 1582779766788,
+            "start" : 1582798321595,
+            "stop" : 1582798321655,
+            "duration" : 60
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'袁静启'", "'刘程旭'" ]
+        }, {
+          "name" : "test_config[袁静启-]",
+          "uid" : "46f331b07f2ff3ea",
+          "parentUid" : "2b6aaf7557b4e27fe12b191a5380b5b8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1582798321695,
+            "stop" : 1582798321736,
+            "duration" : 41
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'袁静启'", "''" ]
+        }, {
+          "name" : "test_config[葛秀亨-王琦]",
+          "uid" : "75ee52e7549487f9",
+          "parentUid" : "2b6aaf7557b4e27fe12b191a5380b5b8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1582798792788,
+            "stop" : 1582798792864,
+            "duration" : 76
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'葛秀亨'", "'王琦'" ]
+        }, {
+          "name" : "test_config[葛秀亨-刘程旭]",
+          "uid" : "ada12be13e1ae9e0",
+          "parentUid" : "2b6aaf7557b4e27fe12b191a5380b5b8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1582798792919,
+            "stop" : 1582798792973,
             "duration" : 54
           },
           "flaky" : false,
           "newFailed" : false,
-          "parameters" : [ "'养丁甘'", "'刘程旭'" ]
+          "parameters" : [ "'葛秀亨'", "'刘程旭'" ]
         }, {
-          "name" : "test_config[养丁甘-]",
-          "uid" : "6f88020739b2a68f",
+          "name" : "test_config[葛秀亨-]",
+          "uid" : "5781c8404cf5b227",
           "parentUid" : "2b6aaf7557b4e27fe12b191a5380b5b8",
           "status" : "passed",
           "time" : {
-            "start" : 1582779766832,
-            "stop" : 1582779766867,
-            "duration" : 35
+            "start" : 1582798793008,
+            "stop" : 1582798793042,
+            "duration" : 34
           },
           "flaky" : false,
           "newFailed" : false,
-          "parameters" : [ "'养丁甘'", "''" ]
+          "parameters" : [ "'葛秀亨'", "''" ]
+        }, {
+          "name" : "test_config[阎丁查-王琦]",
+          "uid" : "d580bb83d75ea554",
+          "parentUid" : "2b6aaf7557b4e27fe12b191a5380b5b8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1582800047663,
+            "stop" : 1582800047753,
+            "duration" : 90
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'阎丁查'", "'王琦'" ]
+        }, {
+          "name" : "test_config[阎丁查-刘程旭]",
+          "uid" : "a14f9a77f283b285",
+          "parentUid" : "2b6aaf7557b4e27fe12b191a5380b5b8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1582800047792,
+            "stop" : 1582800047840,
+            "duration" : 48
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'阎丁查'", "'刘程旭'" ]
+        }, {
+          "name" : "test_config[阎丁查-]",
+          "uid" : "24f6f965c1364b56",
+          "parentUid" : "2b6aaf7557b4e27fe12b191a5380b5b8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1582800047879,
+            "stop" : 1582800047918,
+            "duration" : 39
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'阎丁查'", "''" ]
+        }, {
+          "name" : "test_config[慎郏庆-王琦]",
+          "uid" : "72b3e138981de654",
+          "parentUid" : "2b6aaf7557b4e27fe12b191a5380b5b8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1582856504725,
+            "stop" : 1582856504803,
+            "duration" : 78
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'慎郏庆'", "'王琦'" ]
+        }, {
+          "name" : "test_config[慎郏庆-刘程旭]",
+          "uid" : "22125c03499e2c94",
+          "parentUid" : "2b6aaf7557b4e27fe12b191a5380b5b8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1582856504839,
+            "stop" : 1582856504887,
+            "duration" : 48
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'慎郏庆'", "'刘程旭'" ]
+        }, {
+          "name" : "test_config[慎郏庆-]",
+          "uid" : "6e723d281c98485f",
+          "parentUid" : "2b6aaf7557b4e27fe12b191a5380b5b8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1582856504916,
+            "stop" : 1582856504947,
+            "duration" : 31
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'慎郏庆'", "''" ]
         } ],
         "uid" : "2b6aaf7557b4e27fe12b191a5380b5b8"
       } ],
       "uid" : "6efd358445a4fab957a4b8d083ab31c9"
     } ],
     "uid" : "b6ac0c9db815d79ccf6bb0d35fa111db"
-  } ],
-  "name" : "suites"
+  } ]
 }

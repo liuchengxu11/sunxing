@@ -5,6 +5,7 @@ import allure
 from utils.random_tools import random_merchantName
 import json
 from Config.Config import SX_API_URl
+from TestSuite.conftest import Conftest
 
 @allure.epic("隼骑士小程序")
 @allure.feature("小程序登陆")

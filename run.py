@@ -18,5 +18,6 @@ if __name__ == '__main__':
     cmd2 = 'allure serve %s' % (xml_allure)
 
 
+
     shell_tool.invoke(cmd1)
     shell_tool.invoke(cmd2)
