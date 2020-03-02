@@ -1,204 +1,69 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "children" : [ {
-    "name" : "TestSuite.CcsMerchantController.test_merchat_addorupdate.test_merchat_addorupdate",
+    "name" : "TestSuite",
     "children" : [ {
-      "name" : "test_addorupdate[叔黛暨-王琦]",
-      "uid" : "ea229191799073aa",
-      "parentUid" : "92dab6e8a459ee8d26d3310bd660eda3",
-      "status" : "passed",
-      "time" : {
-        "start" : 1582885148731,
-        "stop" : 1582885148814,
-        "duration" : 83
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "'叔黛暨'", "'王琦'" ]
+      "name" : "CcsMerchantController.test_merchat_addorupdate.test_merchat_addorupdate",
+      "children" : [ {
+        "name" : "test_addorupdate[良厉d-王琦]",
+        "uid" : "6f4c415ed0b103b3",
+        "parentUid" : "92dab6e8a459ee8d26d3310bd660eda3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583114440511,
+          "stop" : 1583114440589,
+          "duration" : 78
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'良厉d'", "'王琦'" ]
+      }, {
+        "name" : "test_addorupdate[良厉d-刘程旭]",
+        "uid" : "f0e81c039926f152",
+        "parentUid" : "92dab6e8a459ee8d26d3310bd660eda3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583114440628,
+          "stop" : 1583114440673,
+          "duration" : 45
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'良厉d'", "'刘程旭'" ]
+      }, {
+        "name" : "test_addorupdate[良厉d-]",
+        "uid" : "78a8ccf6686e50cd",
+        "parentUid" : "92dab6e8a459ee8d26d3310bd660eda3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583114440722,
+          "stop" : 1583114440758,
+          "duration" : 36
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'良厉d'", "''" ]
+      } ],
+      "uid" : "CcsMerchantController.test_merchat_addorupdate.test_merchat_addorupdate"
     }, {
-      "name" : "test_addorupdate[叔黛暨-刘程旭]",
-      "uid" : "4fabf8d750862b76",
-      "parentUid" : "92dab6e8a459ee8d26d3310bd660eda3",
-      "status" : "passed",
-      "time" : {
-        "start" : 1582885148853,
-        "stop" : 1582885148905,
-        "duration" : 52
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "'叔黛暨'", "'刘程旭'" ]
-    }, {
-      "name" : "test_addorupdate[叔黛暨-]",
-      "uid" : "c6fc71b01f88bfd0",
-      "parentUid" : "92dab6e8a459ee8d26d3310bd660eda3",
-      "status" : "passed",
-      "time" : {
-        "start" : 1582885148943,
-        "stop" : 1582885148986,
-        "duration" : 43
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "'叔黛暨'", "''" ]
-    }, {
-      "name" : "test_addorupdate[屠羊牧-王琦]",
-      "uid" : "8cc61e0fb46bcf8f",
-      "parentUid" : "92dab6e8a459ee8d26d3310bd660eda3",
-      "status" : "broken",
-      "time" : {
-        "start" : 1582885392395,
-        "stop" : 1582885392395,
-        "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "'屠羊牧'", "'王琦'" ]
-    }, {
-      "name" : "test_addorupdate[屠羊牧-刘程旭]",
-      "uid" : "ca977e6c4069f4d3",
-      "parentUid" : "92dab6e8a459ee8d26d3310bd660eda3",
-      "status" : "broken",
-      "time" : {
-        "start" : 1582885392407,
-        "stop" : 1582885392407,
-        "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "'屠羊牧'", "'刘程旭'" ]
-    }, {
-      "name" : "test_addorupdate[屠羊牧-]",
-      "uid" : "260fdb3b34b6f5e1",
-      "parentUid" : "92dab6e8a459ee8d26d3310bd660eda3",
-      "status" : "broken",
-      "time" : {
-        "start" : 1582885392414,
-        "stop" : 1582885392414,
-        "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "'屠羊牧'", "''" ]
-    }, {
-      "name" : "test_addorupdate[农馥平-王琦]",
-      "uid" : "1c946a52cc480e0e",
-      "parentUid" : "92dab6e8a459ee8d26d3310bd660eda3",
-      "status" : "passed",
-      "time" : {
-        "start" : 1582885524040,
-        "stop" : 1582885524124,
-        "duration" : 84
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "'农馥平'", "'王琦'" ]
-    }, {
-      "name" : "test_addorupdate[农馥平-刘程旭]",
-      "uid" : "7bf54a0ee90a3728",
-      "parentUid" : "92dab6e8a459ee8d26d3310bd660eda3",
-      "status" : "passed",
-      "time" : {
-        "start" : 1582885524160,
-        "stop" : 1582885524216,
-        "duration" : 56
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "'农馥平'", "'刘程旭'" ]
-    }, {
-      "name" : "test_addorupdate[农馥平-]",
-      "uid" : "92fe84dde8258013",
-      "parentUid" : "92dab6e8a459ee8d26d3310bd660eda3",
-      "status" : "passed",
-      "time" : {
-        "start" : 1582885524252,
-        "stop" : 1582885524294,
-        "duration" : 42
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "'农馥平'", "''" ]
-    }, {
-      "name" : "test_addorupdate[能珍诚-王琦]",
-      "uid" : "5d0342adda376932",
-      "parentUid" : "92dab6e8a459ee8d26d3310bd660eda3",
-      "status" : "passed",
-      "time" : {
-        "start" : 1582886066819,
-        "stop" : 1582886066895,
-        "duration" : 76
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "'能珍诚'", "'王琦'" ]
-    }, {
-      "name" : "test_addorupdate[能珍诚-刘程旭]",
-      "uid" : "fb118816b5038e26",
-      "parentUid" : "92dab6e8a459ee8d26d3310bd660eda3",
-      "status" : "passed",
-      "time" : {
-        "start" : 1582886066930,
-        "stop" : 1582886066976,
-        "duration" : 46
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "'能珍诚'", "'刘程旭'" ]
-    }, {
-      "name" : "test_addorupdate[能珍诚-]",
-      "uid" : "384c0edecdf4b770",
-      "parentUid" : "92dab6e8a459ee8d26d3310bd660eda3",
-      "status" : "passed",
-      "time" : {
-        "start" : 1582886067010,
-        "stop" : 1582886067043,
-        "duration" : 33
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "'能珍诚'", "''" ]
-    }, {
-      "name" : "test_addorupdate[师珍心-王琦]",
-      "uid" : "fb2a15efbaf42abc",
-      "parentUid" : "92dab6e8a459ee8d26d3310bd660eda3",
-      "status" : "passed",
-      "time" : {
-        "start" : 1582886146465,
-        "stop" : 1582886146544,
-        "duration" : 79
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "'师珍心'", "'王琦'" ]
-    }, {
-      "name" : "test_addorupdate[师珍心-刘程旭]",
-      "uid" : "712122f065c7703e",
-      "parentUid" : "92dab6e8a459ee8d26d3310bd660eda3",
-      "status" : "passed",
-      "time" : {
-        "start" : 1582886146585,
-        "stop" : 1582886146641,
-        "duration" : 56
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "'师珍心'", "'刘程旭'" ]
-    }, {
-      "name" : "test_addorupdate[师珍心-]",
-      "uid" : "97a18b0f6f408916",
-      "parentUid" : "92dab6e8a459ee8d26d3310bd660eda3",
-      "status" : "passed",
-      "time" : {
-        "start" : 1582886146677,
-        "stop" : 1582886146713,
-        "duration" : 36
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "'师珍心'", "''" ]
+      "name" : "process.test_merchant_process",
+      "children" : [ {
+        "name" : "test_process",
+        "uid" : "1006e34689f12299",
+        "parentUid" : "ef76ce76bc42ed1dec9774f94be14ff7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583128511008,
+          "stop" : 1583128511312,
+          "duration" : 304
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "process.test_merchant_process"
     } ],
-    "uid" : "TestSuite.CcsMerchantController.test_merchat_addorupdate.test_merchat_addorupdate"
+    "uid" : "119ae4eb4f42e5c9ae0b16c08de034c5"
   } ],
   "name" : "packages"
 }

@@ -4,6 +4,7 @@ from Config.Config import SX_API_URl
 
 
 class Common(object):
+
     def __init__(self):
         self.url = SX_API_URl
         # self.headers = {
@@ -24,14 +25,18 @@ class Common(object):
     #     return res
 
     def get(self, uri, params="",headers=""):
-        url = self.url + uri + params
+        url = self.url + uri +"?"+params
         res = requests.get(url, headers=headers)
         return res
 
-    def post(self, uri, params="",headers=""):
+    def post(self, uri, params="", headers=""):
+        print(self.url)
         url = self.url + uri
+        print(url)
         if len(params) > 0:
             res = requests.post(url, data=json.dumps(params), headers=headers)
         else:
             res = requests.post(url, headers=headers)
         return res
+
+

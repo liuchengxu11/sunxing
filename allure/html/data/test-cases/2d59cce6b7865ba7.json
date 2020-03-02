@@ -1,0 +1,175 @@
+{
+  "uid" : "2d59cce6b7865ba7",
+  "name" : "test_process",
+  "fullName" : "TestSuite.process.test_merchant_process.Test_merchant#test_process",
+  "historyId" : "7a709b4f5a86fb073f66d1e207082182",
+  "time" : {
+    "start" : 1583113991802,
+    "stop" : 1583113991985,
+    "duration" : 183
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "__pytest_repeat_step_number",
+    "time" : {
+      "start" : 1583113991760,
+      "stop" : 1583113991760,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1583113991760,
+      "stop" : 1583113991760,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "Conftest",
+    "time" : {
+      "start" : 1583113991760,
+      "stop" : 1583113991802,
+      "duration" : 42
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7c8dfe9f3ad6906a",
+      "name" : "地址",
+      "source" : "7c8dfe9f3ad6906a.txt",
+      "type" : "text/plain",
+      "size" : 45
+    }, {
+      "uid" : "607cb1925a0d9842",
+      "name" : "请求",
+      "source" : "607cb1925a0d9842.txt",
+      "type" : "text/plain",
+      "size" : 60
+    }, {
+      "uid" : "531bc436d0b2547f",
+      "name" : "请求头",
+      "source" : "531bc436d0b2547f.txt",
+      "type" : "text/plain",
+      "size" : 42
+    }, {
+      "uid" : "f410368980dab23d",
+      "name" : "响应",
+      "source" : "f410368980dab23d.txt",
+      "type" : "text/plain",
+      "size" : 639
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c38784ca02eb102d",
+      "name" : "新增商户接口新增的名字宿郏a,返回的数据",
+      "source" : "c38784ca02eb102d.txt",
+      "type" : "text/plain",
+      "size" : 67
+    }, {
+      "uid" : "332f8f72022b9ad9",
+      "name" : "商户查询接口查询对应的名字-宿郏a",
+      "source" : "332f8f72022b9ad9.txt",
+      "type" : "text/plain",
+      "size" : 9
+    }, {
+      "uid" : "9428a7ae3e3cc32d",
+      "name" : "商户查询接口查询对应的id和删除id-merchantName_id=1117488is_delete=0",
+      "source" : "9428a7ae3e3cc32d.txt",
+      "type" : "text/plain",
+      "size" : 36
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1583113991988,
+      "stop" : 1583113991988,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "隼骑士小程序"
+  }, {
+    "name" : "feature",
+    "value" : "验证商户的基本功能 - 新增> 查询> 删除"
+  }, {
+    "name" : "tag",
+    "value" : "test"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestSuite.process"
+  }, {
+    "name" : "suite",
+    "value" : "test_merchant_process"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_merchant"
+  }, {
+    "name" : "host",
+    "value" : "liuchengxudeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "39420-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestSuite.process.test_merchant_process"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "test" ]
+  },
+  "source" : "2d59cce6b7865ba7.json",
+  "parameterValues" : [ ]
+}

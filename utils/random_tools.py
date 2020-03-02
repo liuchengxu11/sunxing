@@ -32,7 +32,8 @@ def random_merchantName():
             "仇栾暴甘钭厉戎祖武符刘姜詹束龙叶幸司韶郜黎蓟薄印宿白怀蒲台从鄂索" \
             "咸籍赖卓蔺屠蒙池乔阴郁胥能苍双闻莘党翟谭贡劳逄姬申扶堵冉宰郦雍" \
             "却璩桑桂濮牛寿通边扈燕冀郏浦尚农温别庄晏柴瞿阎充慕连茹习宦艾鱼" \
-            "菲寒伊亚宜可姬舒影荔枝思丽";
+            "菲寒伊亚宜可姬舒影荔枝思丽asdaskdoadadandaudabsdiasbdbaid"\
+            "sidadaibdabdiuadsasodadaduadaudaodudasdbdbdabdaidiads";
     name3 = "伟刚勇毅俊峰强军平保东文辉力明永健世广志义兴良海山仁波宁贵福生龙元全国" \
           "胜学祥才发武新利清飞彬富顺信子杰涛昌成康星光天达安岩中茂进林有坚和彪博" \
           "诚先敬震振壮会思群豪心邦承乐绍功松善厚庆磊民友裕河哲江超浩亮政谦亨奇固" \
@@ -44,6 +45,7 @@ def random_merchantName():
             "容向古易慎戈廖庚终暨居衡步都耿满弘匡国文寇广禄阙东殴殳沃利蔚" \
             "越夔隆师巩厍聂晁勾敖融冷訾辛阚那简饶空曾毋沙乜养鞠须丰巢关蒯相" \
             "查后江红游竺权逯盖益桓公万俟司马上官欧阳夏侯诸葛闻人东方赫连皇" \
+            "sidadaibdabdiuadsasodadaduadaudaodudasdbdbdabdaidiads"\
             "雄琛钧冠策腾楠榕风航弘";
     list1 = random.choice(name1)
     list2 = random.choice(name2)

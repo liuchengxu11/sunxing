@@ -1,0 +1,179 @@
+{
+  "uid" : "7c7988127e46664a",
+  "name" : "test_process",
+  "fullName" : "TestSuite.process.test_merchant_process.Test_merchant#test_process",
+  "historyId" : "7a709b4f5a86fb073f66d1e207082182",
+  "time" : {
+    "start" : 1583125508996,
+    "stop" : 1583125509284,
+    "duration" : 288
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'DB_mysql' object has no attribute 'test_select_db'",
+  "statusTrace" : "self = <TestSuite.process.test_merchant_process.Test_merchant object at 0x7fafd0253b90>\nConftest = None\n\n    @allure.epic(\"隼骑士小程序\")\n    @allure.feature(\"验证商户的基本功能 - 新增> 查询> 删除\")\n    @pytest.mark.test\n    # 验证商户基本功能 - 新增> 查询> 删除\n    def test_process(self, Conftest):\n        merchantName_name = str(random_merchantName())\n    # 新增\n        self.test_update_mer_addorupdate(\n            Conftest=Conftest, merchantName_name=merchantName_name)\n    # 查询  merchantName_id\n        merchantName_id, is_delete = self.test_select_db(\n            merchantName_name=merchantName_name)\n        add = \"merchantName_id=\" + \\\n            str(merchantName_id) + \"is_delete=\" + str(is_delete)\n        allure.attach(\n            json.dumps(\n                merchantName_name,\n                ensure_ascii=False,\n                indent=4),\n            '商户查询接口查询对应的名字-{}'.format(merchantName_name),\n            allure.attachment_type.TEXT)\n        allure.attach(\n            json.dumps(\n                add,\n                ensure_ascii=False,\n                indent=4),\n            '商户查询接口查询对应的id和删除id-{}'.format(add),\n            allure.attachment_type.TEXT)\n        self.test_select_db(merchantName_id)\n    # 删除\n>       self.test_del_met_addorupdate(merchantName_id)\n\nTestSuite/process/test_merchant_process.py:47: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <TestSuite.process.test_merchant_process.Test_merchant object at 0x7fafd0253b90>\nmerchantName_id = 1117497\n\n    def test_del_met_addorupdate(self, merchantName_id):\n        if merchantName_id:\n            headers1 = login_headers\n            uri = \"/api/merchant/delete\"\n            req_Body = {\"id\": merchantName_id}\n            status = Common().post(uri, req_Body, headers1)\n            if status:\n>               target_Merchant_Id, is_Deleted = self.db.test_select_db(\n                    target_Merchant_Id=merchantName_id)\nE               AttributeError: 'DB_mysql' object has no attribute 'test_select_db'\n\nTestSuite/process/test_merchant_process.py:149: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "__pytest_repeat_step_number",
+    "time" : {
+      "start" : 1583125508938,
+      "stop" : 1583125508938,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1583125508937,
+      "stop" : 1583125508938,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "Conftest",
+    "time" : {
+      "start" : 1583125508938,
+      "stop" : 1583125508992,
+      "duration" : 54
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "afc04634fe5c3d44",
+      "name" : "地址",
+      "source" : "afc04634fe5c3d44.txt",
+      "type" : "text/plain",
+      "size" : 45
+    }, {
+      "uid" : "4400e3ba297f8145",
+      "name" : "请求",
+      "source" : "4400e3ba297f8145.txt",
+      "type" : "text/plain",
+      "size" : 60
+    }, {
+      "uid" : "2c677ca4ff43f6a0",
+      "name" : "请求头",
+      "source" : "2c677ca4ff43f6a0.txt",
+      "type" : "text/plain",
+      "size" : 42
+    }, {
+      "uid" : "93255cfa6140efce",
+      "name" : "响应",
+      "source" : "93255cfa6140efce.txt",
+      "type" : "text/plain",
+      "size" : 639
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'DB_mysql' object has no attribute 'test_select_db'",
+    "statusTrace" : "self = <TestSuite.process.test_merchant_process.Test_merchant object at 0x7fafd0253b90>\nConftest = None\n\n    @allure.epic(\"隼骑士小程序\")\n    @allure.feature(\"验证商户的基本功能 - 新增> 查询> 删除\")\n    @pytest.mark.test\n    # 验证商户基本功能 - 新增> 查询> 删除\n    def test_process(self, Conftest):\n        merchantName_name = str(random_merchantName())\n    # 新增\n        self.test_update_mer_addorupdate(\n            Conftest=Conftest, merchantName_name=merchantName_name)\n    # 查询  merchantName_id\n        merchantName_id, is_delete = self.test_select_db(\n            merchantName_name=merchantName_name)\n        add = \"merchantName_id=\" + \\\n            str(merchantName_id) + \"is_delete=\" + str(is_delete)\n        allure.attach(\n            json.dumps(\n                merchantName_name,\n                ensure_ascii=False,\n                indent=4),\n            '商户查询接口查询对应的名字-{}'.format(merchantName_name),\n            allure.attachment_type.TEXT)\n        allure.attach(\n            json.dumps(\n                add,\n                ensure_ascii=False,\n                indent=4),\n            '商户查询接口查询对应的id和删除id-{}'.format(add),\n            allure.attachment_type.TEXT)\n        self.test_select_db(merchantName_id)\n    # 删除\n>       self.test_del_met_addorupdate(merchantName_id)\n\nTestSuite/process/test_merchant_process.py:47: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <TestSuite.process.test_merchant_process.Test_merchant object at 0x7fafd0253b90>\nmerchantName_id = 1117497\n\n    def test_del_met_addorupdate(self, merchantName_id):\n        if merchantName_id:\n            headers1 = login_headers\n            uri = \"/api/merchant/delete\"\n            req_Body = {\"id\": merchantName_id}\n            status = Common().post(uri, req_Body, headers1)\n            if status:\n>               target_Merchant_Id, is_Deleted = self.db.test_select_db(\n                    target_Merchant_Id=merchantName_id)\nE               AttributeError: 'DB_mysql' object has no attribute 'test_select_db'\n\nTestSuite/process/test_merchant_process.py:149: AttributeError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b56a2d28164acc20",
+      "name" : "新增商户接口新增的名字双阴班,返回的数据",
+      "source" : "b56a2d28164acc20.txt",
+      "type" : "text/plain",
+      "size" : 67
+    }, {
+      "uid" : "cdede86193278c18",
+      "name" : "商户查询接口查询对应的名字-双阴班",
+      "source" : "cdede86193278c18.txt",
+      "type" : "text/plain",
+      "size" : 11
+    }, {
+      "uid" : "30ebffaf621c92e",
+      "name" : "商户查询接口查询对应的id和删除id-merchantName_id=1117497is_delete=0",
+      "source" : "30ebffaf621c92e.txt",
+      "type" : "text/plain",
+      "size" : 36
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1583125509351,
+      "stop" : 1583125509351,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "验证商户的基本功能 - 新增> 查询> 删除"
+  }, {
+    "name" : "epic",
+    "value" : "隼骑士小程序"
+  }, {
+    "name" : "tag",
+    "value" : "test"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestSuite.process"
+  }, {
+    "name" : "suite",
+    "value" : "test_merchant_process"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_merchant"
+  }, {
+    "name" : "host",
+    "value" : "liuchengxudeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "40965-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestSuite.process.test_merchant_process"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "test" ]
+  },
+  "source" : "7c7988127e46664a.json",
+  "parameterValues" : [ ]
+}
