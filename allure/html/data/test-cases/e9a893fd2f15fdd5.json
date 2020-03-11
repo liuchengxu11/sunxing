@@ -1,0 +1,193 @@
+{
+  "uid" : "e9a893fd2f15fdd5",
+  "name" : "test_process",
+  "fullName" : "TestSuite.process.test_merchant_process.Test_merchant#test_process",
+  "historyId" : "7a709b4f5a86fb073f66d1e207082182",
+  "time" : {
+    "start" : 1583144070709,
+    "stop" : 1583144071010,
+    "duration" : 301
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1583144070668,
+      "stop" : 1583144070668,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "Conftest",
+    "time" : {
+      "start" : 1583144070668,
+      "stop" : 1583144070708,
+      "duration" : 40
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b5abbc382baa7e19",
+      "name" : "地址",
+      "source" : "b5abbc382baa7e19.txt",
+      "type" : "text/plain",
+      "size" : 45
+    }, {
+      "uid" : "ef41a2dcb6c06b3f",
+      "name" : "请求",
+      "source" : "ef41a2dcb6c06b3f.txt",
+      "type" : "text/plain",
+      "size" : 60
+    }, {
+      "uid" : "a7103f74e496f8fe",
+      "name" : "请求头",
+      "source" : "a7103f74e496f8fe.txt",
+      "type" : "text/plain",
+      "size" : 42
+    }, {
+      "uid" : "341c540519aa8fde",
+      "name" : "响应",
+      "source" : "341c540519aa8fde.txt",
+      "type" : "text/plain",
+      "size" : 639
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "__pytest_repeat_step_number",
+    "time" : {
+      "start" : 1583144070668,
+      "stop" : 1583144070668,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "532ba44a52d229a7",
+      "name" : "新增商户接口新增的名字葛咎竺,返回的数据",
+      "source" : "532ba44a52d229a7.txt",
+      "type" : "text/plain",
+      "size" : 67
+    }, {
+      "uid" : "c32994bd6c34be9",
+      "name" : "商户查询接口查询对应的名字-葛咎竺",
+      "source" : "c32994bd6c34be9.txt",
+      "type" : "text/plain",
+      "size" : 11
+    }, {
+      "uid" : "e56414b77fa5c935",
+      "name" : "商户查询接口查询对应的id和删除id-merchantName_id=1117537is_delete=0",
+      "source" : "e56414b77fa5c935.txt",
+      "type" : "text/plain",
+      "size" : 36
+    }, {
+      "uid" : "c28f5fc7aeb6cbec",
+      "name" : "调用删除接口所返回的数据",
+      "source" : "c28f5fc7aeb6cbec.txt",
+      "type" : "text/plain",
+      "size" : 67
+    }, {
+      "uid" : "a3c646c84f6d790c",
+      "name" : "根据merchantName_id 去查询数据库得到is_Deleted  1就是删除成功 0 就是没删除",
+      "source" : "a3c646c84f6d790c.txt",
+      "type" : "text/plain",
+      "size" : 1
+    }, {
+      "uid" : "82786f5ceaa1e298",
+      "name" : "再次查询商户id所获得的merchantName_id 和is_delete ",
+      "source" : "82786f5ceaa1e298.txt",
+      "type" : "text/plain",
+      "size" : 36
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1583144071013,
+      "stop" : 1583144071013,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "隼骑士小程序"
+  }, {
+    "name" : "feature",
+    "value" : "验证商户的基本功能 - 新增> 查询> 删除"
+  }, {
+    "name" : "tag",
+    "value" : "test"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestSuite.process"
+  }, {
+    "name" : "suite",
+    "value" : "test_merchant_process"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_merchant"
+  }, {
+    "name" : "host",
+    "value" : "liuchengxudeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "44209-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestSuite.process.test_merchant_process"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "test" ]
+  },
+  "source" : "e9a893fd2f15fdd5.json",
+  "parameterValues" : [ ]
+}

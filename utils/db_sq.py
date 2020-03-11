@@ -36,7 +36,6 @@ class DB_mysql():
         conn=pymysql.connect(host=SX_DB_HOST,user=SX_DB_USER,password=SX_DB_PASS,database=db,charset="utf8")
         cursor=conn.cursor()
         cursor.execute(data)
-        cursor.rowcount
         if cursor.rowcount > 0:
             b=cursor.fetchall()
         else:

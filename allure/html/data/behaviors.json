@@ -1,5 +1,6 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
   "children" : [ {
     "name" : "隼骑士小程序",
     "children" : [ {
@@ -7,44 +8,122 @@
       "children" : [ {
         "name" : "addorupdate_新增修改",
         "children" : [ {
-          "name" : "test_addorupdate[良厉d-王琦]",
-          "uid" : "6f4c415ed0b103b3",
+          "name" : "test_addorupdate[易玉i-王琦]",
+          "uid" : "c9bdde42f8e9ccb4",
           "parentUid" : "f8cb68e52006dbe085109fe60e6a6cf3",
           "status" : "passed",
           "time" : {
-            "start" : 1583114440511,
-            "stop" : 1583114440589,
-            "duration" : 78
+            "start" : 1583143954126,
+            "stop" : 1583143954207,
+            "duration" : 81
           },
           "flaky" : false,
           "newFailed" : false,
-          "parameters" : [ "'良厉d'", "'王琦'" ]
+          "parameters" : [ "'易玉i'", "'王琦'" ]
         }, {
-          "name" : "test_addorupdate[良厉d-刘程旭]",
-          "uid" : "f0e81c039926f152",
+          "name" : "test_addorupdate[易玉i-刘程旭]",
+          "uid" : "54e28e6dfc378e02",
           "parentUid" : "f8cb68e52006dbe085109fe60e6a6cf3",
           "status" : "passed",
           "time" : {
-            "start" : 1583114440628,
-            "stop" : 1583114440673,
-            "duration" : 45
+            "start" : 1583143954246,
+            "stop" : 1583143954298,
+            "duration" : 52
           },
           "flaky" : false,
           "newFailed" : false,
-          "parameters" : [ "'良厉d'", "'刘程旭'" ]
+          "parameters" : [ "'易玉i'", "'刘程旭'" ]
         }, {
-          "name" : "test_addorupdate[良厉d-]",
-          "uid" : "78a8ccf6686e50cd",
+          "name" : "test_addorupdate[易玉i-]",
+          "uid" : "e8a7c3d4a23783a4",
           "parentUid" : "f8cb68e52006dbe085109fe60e6a6cf3",
           "status" : "passed",
           "time" : {
-            "start" : 1583114440722,
-            "stop" : 1583114440758,
-            "duration" : 36
+            "start" : 1583143954337,
+            "stop" : 1583143954371,
+            "duration" : 34
           },
           "flaky" : false,
           "newFailed" : false,
-          "parameters" : [ "'良厉d'", "''" ]
+          "parameters" : [ "'易玉i'", "''" ]
+        }, {
+          "name" : "test_addorupdate[殴茜暨-王琦]",
+          "uid" : "360ca584e5483eb1",
+          "parentUid" : "f8cb68e52006dbe085109fe60e6a6cf3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1583156946288,
+            "stop" : 1583156946370,
+            "duration" : 82
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'殴茜暨'", "'王琦'" ]
+        }, {
+          "name" : "test_addorupdate[殴茜暨-刘程旭]",
+          "uid" : "2eefa9d420ef8445",
+          "parentUid" : "f8cb68e52006dbe085109fe60e6a6cf3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1583156946408,
+            "stop" : 1583156946463,
+            "duration" : 55
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'殴茜暨'", "'刘程旭'" ]
+        }, {
+          "name" : "test_addorupdate[殴茜暨-]",
+          "uid" : "fac3a9273d8a0bb2",
+          "parentUid" : "f8cb68e52006dbe085109fe60e6a6cf3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1583156946501,
+            "stop" : 1583156946544,
+            "duration" : 43
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'殴茜暨'", "''" ]
+        }, {
+          "name" : "test_addorupdate[和农却-王琦]",
+          "uid" : "8174d60d8a9b2df6",
+          "parentUid" : "f8cb68e52006dbe085109fe60e6a6cf3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1583463402953,
+            "stop" : 1583463403032,
+            "duration" : 79
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'和农却'", "'王琦'" ]
+        }, {
+          "name" : "test_addorupdate[和农却-刘程旭]",
+          "uid" : "45c63d05cae1d581",
+          "parentUid" : "f8cb68e52006dbe085109fe60e6a6cf3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1583463403071,
+            "stop" : 1583463403121,
+            "duration" : 50
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'和农却'", "'刘程旭'" ]
+        }, {
+          "name" : "test_addorupdate[和农却-]",
+          "uid" : "2fbb84fb62660b62",
+          "parentUid" : "f8cb68e52006dbe085109fe60e6a6cf3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1583463403160,
+            "stop" : 1583463403194,
+            "duration" : 34
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'和农却'", "''" ]
         } ],
         "uid" : "f8cb68e52006dbe085109fe60e6a6cf3"
       } ],
@@ -53,13 +132,13 @@
       "name" : "验证商户的基本功能 - 新增> 查询> 删除",
       "children" : [ {
         "name" : "test_process",
-        "uid" : "1006e34689f12299",
+        "uid" : "23ab1ec4c08649e5",
         "parentUid" : "7fe66ca9d79f2a4ad92eab9dc27b9c44",
         "status" : "passed",
         "time" : {
-          "start" : 1583128511008,
-          "stop" : 1583128511312,
-          "duration" : 304
+          "start" : 1583463404083,
+          "stop" : 1583463404409,
+          "duration" : 326
         },
         "flaky" : false,
         "newFailed" : false,
@@ -68,6 +147,5 @@
       "uid" : "7fe66ca9d79f2a4ad92eab9dc27b9c44"
     } ],
     "uid" : "f88e7b0c0f081eeba225aad4a910dbd4"
-  } ],
-  "name" : "behaviors"
+  } ]
 }

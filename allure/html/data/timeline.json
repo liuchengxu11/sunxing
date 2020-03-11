@@ -1,324 +1,227 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
   "children" : [ {
     "name" : "liuchengxudeMacBook-Pro.local",
     "children" : [ {
-      "name" : "39676-MainThread",
+      "name" : "44065-MainThread",
       "children" : [ {
-        "name" : "test_addorupdate[良厉d-王琦]",
-        "uid" : "6f4c415ed0b103b3",
-        "parentUid" : "df4d155b05fcc2634e78865d935edcb9",
+        "name" : "test_addorupdate[易玉i-]",
+        "uid" : "e8a7c3d4a23783a4",
+        "parentUid" : "e081e857de11bee62bf7c91cb3ccca25",
         "status" : "passed",
         "time" : {
-          "start" : 1583114440511,
-          "stop" : 1583114440589,
-          "duration" : 78
+          "start" : 1583143954337,
+          "stop" : 1583143954371,
+          "duration" : 34
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'良厉d'", "'王琦'" ]
+        "parameters" : [ "'易玉i'", "''" ]
       }, {
-        "name" : "test_addorupdate[良厉d-刘程旭]",
-        "uid" : "f0e81c039926f152",
-        "parentUid" : "df4d155b05fcc2634e78865d935edcb9",
+        "name" : "test_addorupdate[易玉i-王琦]",
+        "uid" : "c9bdde42f8e9ccb4",
+        "parentUid" : "e081e857de11bee62bf7c91cb3ccca25",
         "status" : "passed",
         "time" : {
-          "start" : 1583114440628,
-          "stop" : 1583114440673,
-          "duration" : 45
+          "start" : 1583143954126,
+          "stop" : 1583143954207,
+          "duration" : 81
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'良厉d'", "'刘程旭'" ]
+        "parameters" : [ "'易玉i'", "'王琦'" ]
       }, {
-        "name" : "test_addorupdate[良厉d-]",
-        "uid" : "78a8ccf6686e50cd",
-        "parentUid" : "df4d155b05fcc2634e78865d935edcb9",
+        "name" : "test_addorupdate[易玉i-刘程旭]",
+        "uid" : "54e28e6dfc378e02",
+        "parentUid" : "e081e857de11bee62bf7c91cb3ccca25",
         "status" : "passed",
         "time" : {
-          "start" : 1583114440722,
-          "stop" : 1583114440758,
-          "duration" : 36
+          "start" : 1583143954246,
+          "stop" : 1583143954298,
+          "duration" : 52
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'良厉d'", "''" ]
+        "parameters" : [ "'易玉i'", "'刘程旭'" ]
       } ],
-      "uid" : "df4d155b05fcc2634e78865d935edcb9"
+      "uid" : "e081e857de11bee62bf7c91cb3ccca25"
     }, {
-      "name" : "40345-MainThread",
+      "name" : "44209-MainThread",
       "children" : [ {
         "name" : "test_process",
-        "uid" : "a6e695d34bb3439d",
-        "parentUid" : "af8fbb00dd3e35e28266a83586a7a953",
-        "status" : "broken",
-        "time" : {
-          "start" : 1583116018683,
-          "stop" : 1583116018919,
-          "duration" : 236
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "af8fbb00dd3e35e28266a83586a7a953"
-    }, {
-      "name" : "41324-MainThread",
-      "children" : [ {
-        "name" : "test_process",
-        "uid" : "f467587081d674ad",
-        "parentUid" : "43e8ed1a32660337c38384dd34f3a37d",
+        "uid" : "e9a893fd2f15fdd5",
+        "parentUid" : "61d940f30ba28a411fdf7b91bb27267e",
         "status" : "passed",
         "time" : {
-          "start" : 1583127746607,
-          "stop" : 1583127746918,
-          "duration" : 311
+          "start" : 1583144070709,
+          "stop" : 1583144071010,
+          "duration" : 301
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "43e8ed1a32660337c38384dd34f3a37d"
+      "uid" : "61d940f30ba28a411fdf7b91bb27267e"
     }, {
-      "name" : "39979-MainThread",
+      "name" : "44130-MainThread",
       "children" : [ {
         "name" : "test_process",
-        "uid" : "6133a2448953ecec",
-        "parentUid" : "9bcb69613dfa7e3d392de4239ad006ea",
-        "status" : "broken",
-        "time" : {
-          "start" : 1583114885595,
-          "stop" : 1583114885784,
-          "duration" : 189
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "9bcb69613dfa7e3d392de4239ad006ea"
-    }, {
-      "name" : "39569-MainThread",
-      "children" : [ {
-        "name" : "test_process",
-        "uid" : "51b4041e0b8b228",
-        "parentUid" : "e17adf0ac71b91ed5664763e4864e825",
+        "uid" : "c8692513256dae0a",
+        "parentUid" : "b8c7072a94cb2b434aafba21308a4751",
         "status" : "passed",
         "time" : {
-          "start" : 1583114304750,
-          "stop" : 1583114304939,
-          "duration" : 189
+          "start" : 1583144044031,
+          "stop" : 1583144044348,
+          "duration" : 317
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "e17adf0ac71b91ed5664763e4864e825"
+      "uid" : "b8c7072a94cb2b434aafba21308a4751"
     }, {
-      "name" : "40254-MainThread",
+      "name" : "44069-MainThread",
       "children" : [ {
         "name" : "test_process",
-        "uid" : "3f9f90276d220ed2",
-        "parentUid" : "f59cc7693ccab097fc20c85db9bc325c",
-        "status" : "broken",
-        "time" : {
-          "start" : 1583115678912,
-          "stop" : 1583115679090,
-          "duration" : 178
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "f59cc7693ccab097fc20c85db9bc325c"
-    }, {
-      "name" : "41033-MainThread",
-      "children" : [ {
-        "name" : "test_process",
-        "uid" : "bd2dc66c68427889",
-        "parentUid" : "dd51f36682d6e2d06b19ed7bdab6f38f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1583125608425,
-          "stop" : 1583125608724,
-          "duration" : 299
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "dd51f36682d6e2d06b19ed7bdab6f38f"
-    }, {
-      "name" : "41529-MainThread",
-      "children" : [ {
-        "name" : "test_process",
-        "uid" : "1006e34689f12299",
-        "parentUid" : "3beab5b24039e0572d74e19ca5975561",
+        "uid" : "1455a368c0277cb5",
+        "parentUid" : "a2a848e2d923c846435e10fd41f4cb61",
         "status" : "passed",
         "time" : {
-          "start" : 1583128511008,
-          "stop" : 1583128511312,
-          "duration" : 304
+          "start" : 1583143955113,
+          "stop" : 1583143955432,
+          "duration" : 319
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "3beab5b24039e0572d74e19ca5975561"
+      "uid" : "a2a848e2d923c846435e10fd41f4cb61"
     }, {
-      "name" : "40129-MainThread",
+      "name" : "64939-MainThread",
       "children" : [ {
         "name" : "test_process",
-        "uid" : "1c6a0cdd08a5999c",
-        "parentUid" : "c93f4e5da1cbc3d2bd157a8fa5002fa1",
-        "status" : "broken",
-        "time" : {
-          "start" : 1583115413061,
-          "stop" : 1583115413256,
-          "duration" : 195
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "c93f4e5da1cbc3d2bd157a8fa5002fa1"
-    }, {
-      "name" : "41098-MainThread",
-      "children" : [ {
-        "name" : "test_process",
-        "uid" : "38cad8a5b53ac865",
-        "parentUid" : "be4298a22f796916ed7ae69c6770145b",
+        "uid" : "23ab1ec4c08649e5",
+        "parentUid" : "25de2e63e4bced519544bbf73eb3837d",
         "status" : "passed",
         "time" : {
-          "start" : 1583125759627,
-          "stop" : 1583125760434,
-          "duration" : 807
+          "start" : 1583463404083,
+          "stop" : 1583463404409,
+          "duration" : 326
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "be4298a22f796916ed7ae69c6770145b"
+      "uid" : "25de2e63e4bced519544bbf73eb3837d"
     }, {
-      "name" : "40188-MainThread",
+      "name" : "64935-MainThread",
       "children" : [ {
-        "name" : "test_process",
-        "uid" : "fb87ba894f632f35",
-        "parentUid" : "fae0d237240fe0dec66872fb9cd11577",
-        "status" : "broken",
-        "time" : {
-          "start" : 1583115599297,
-          "stop" : 1583115599526,
-          "duration" : 229
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "fae0d237240fe0dec66872fb9cd11577"
-    }, {
-      "name" : "39362-MainThread",
-      "children" : [ {
-        "name" : "test_process",
-        "uid" : "8b38e9c2c6c667a9",
-        "parentUid" : "e435fd318bd5b284ff1aa8c29741915e",
-        "status" : "broken",
-        "time" : {
-          "start" : 1583113932626,
-          "stop" : 1583113932806,
-          "duration" : 180
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "e435fd318bd5b284ff1aa8c29741915e"
-    }, {
-      "name" : "41461-MainThread",
-      "children" : [ {
-        "name" : "test_process",
-        "uid" : "7180c1aef42c2240",
-        "parentUid" : "6072c5bde5d9e751aa39d4fd4c5d13b3",
-        "status" : "broken",
-        "time" : {
-          "start" : 1583128451332,
-          "stop" : 1583128451705,
-          "duration" : 373
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "6072c5bde5d9e751aa39d4fd4c5d13b3"
-    }, {
-      "name" : "40965-MainThread",
-      "children" : [ {
-        "name" : "test_process",
-        "uid" : "7c7988127e46664a",
-        "parentUid" : "634244108ab3ab4715b9ae795a98672c",
-        "status" : "broken",
-        "time" : {
-          "start" : 1583125508996,
-          "stop" : 1583125509284,
-          "duration" : 288
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "634244108ab3ab4715b9ae795a98672c"
-    }, {
-      "name" : "41245-MainThread",
-      "children" : [ {
-        "name" : "test_process",
-        "uid" : "7601baac69d1a11f",
-        "parentUid" : "b0b6d74f403e597511bf7fa40de60ae8",
+        "name" : "test_addorupdate[和农却-王琦]",
+        "uid" : "8174d60d8a9b2df6",
+        "parentUid" : "7eb3474f2e710f40c09fc9a5bfef1ba7",
         "status" : "passed",
         "time" : {
-          "start" : 1583126993724,
-          "stop" : 1583126994172,
-          "duration" : 448
+          "start" : 1583463402953,
+          "stop" : 1583463403032,
+          "duration" : 79
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "b0b6d74f403e597511bf7fa40de60ae8"
-    }, {
-      "name" : "40065-MainThread",
-      "children" : [ {
-        "name" : "test_process",
-        "uid" : "32665253192b99d3",
-        "parentUid" : "ac23c2355bba099eb56ebeb2d6e8d417",
-        "status" : "broken",
-        "time" : {
-          "start" : 1583115288920,
-          "stop" : 1583115289147,
-          "duration" : 227
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "ac23c2355bba099eb56ebeb2d6e8d417"
-    }, {
-      "name" : "39420-MainThread",
-      "children" : [ {
-        "name" : "test_process",
-        "uid" : "2d59cce6b7865ba7",
-        "parentUid" : "1f113b4af142f6664aa8ffc3df82f05f",
+        "parameters" : [ "'和农却'", "'王琦'" ]
+      }, {
+        "name" : "test_addorupdate[和农却-刘程旭]",
+        "uid" : "45c63d05cae1d581",
+        "parentUid" : "7eb3474f2e710f40c09fc9a5bfef1ba7",
         "status" : "passed",
         "time" : {
-          "start" : 1583113991802,
-          "stop" : 1583113991985,
-          "duration" : 183
+          "start" : 1583463403071,
+          "stop" : 1583463403121,
+          "duration" : 50
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ ]
+        "parameters" : [ "'和农却'", "'刘程旭'" ]
+      }, {
+        "name" : "test_addorupdate[和农却-]",
+        "uid" : "2fbb84fb62660b62",
+        "parentUid" : "7eb3474f2e710f40c09fc9a5bfef1ba7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583463403160,
+          "stop" : 1583463403194,
+          "duration" : 34
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'和农却'", "''" ]
       } ],
-      "uid" : "1f113b4af142f6664aa8ffc3df82f05f"
+      "uid" : "7eb3474f2e710f40c09fc9a5bfef1ba7"
     } ],
     "uid" : "a1e0a2e782738ac758e4007b94ccfcf6"
-  } ],
-  "name" : "timeline"
+  }, {
+    "name" : "liuchengxudeMBP",
+    "children" : [ {
+      "name" : "45400-MainThread",
+      "children" : [ {
+        "name" : "test_process",
+        "uid" : "7f6fa697fd130f14",
+        "parentUid" : "cedf6c5745b8f597e4f788db54893303",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583156947382,
+          "stop" : 1583156947737,
+          "duration" : 355
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cedf6c5745b8f597e4f788db54893303"
+    }, {
+      "name" : "45396-MainThread",
+      "children" : [ {
+        "name" : "test_addorupdate[殴茜暨-王琦]",
+        "uid" : "360ca584e5483eb1",
+        "parentUid" : "0622a874ebb9dfb22b70c659b92d1e73",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583156946288,
+          "stop" : 1583156946370,
+          "duration" : 82
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'殴茜暨'", "'王琦'" ]
+      }, {
+        "name" : "test_addorupdate[殴茜暨-刘程旭]",
+        "uid" : "2eefa9d420ef8445",
+        "parentUid" : "0622a874ebb9dfb22b70c659b92d1e73",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583156946408,
+          "stop" : 1583156946463,
+          "duration" : 55
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'殴茜暨'", "'刘程旭'" ]
+      }, {
+        "name" : "test_addorupdate[殴茜暨-]",
+        "uid" : "fac3a9273d8a0bb2",
+        "parentUid" : "0622a874ebb9dfb22b70c659b92d1e73",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583156946501,
+          "stop" : 1583156946544,
+          "duration" : 43
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'殴茜暨'", "''" ]
+      } ],
+      "uid" : "0622a874ebb9dfb22b70c659b92d1e73"
+    } ],
+    "uid" : "abd595725efd27e57f57d05553717792"
+  } ]
 }

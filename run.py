@@ -10,8 +10,8 @@ if __name__ == '__main__':
     test_case1="TestSuite/process/test_merchant_process.py"
     xml_allure = './allure/xml/'
     html_allure = './allure/html/'
-    # pytest.main(["-v", "-s",'--alluredir', xml_allure, html_allure,test_case])
-    pytest.main(["-v", "-s", "-m", "test", '--alluredir', xml_allure, html_allure, test_case1])
+    pytest.main(["-v", "-s",'--alluredir', xml_allure, html_allure,test_case])
+    pytest.main(["-v", "-s", "-m","test","-n","3",'--alluredir', xml_allure, html_allure, test_case1])
     cmd1 = 'allure generate %s -o %s --clean' % (
         xml_allure, html_allure)
     cmd2 = 'allure serve %s' % (xml_allure)
