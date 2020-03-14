@@ -5,8 +5,9 @@ class Element:
     """
 
     def __init__(self):
-        at = appium_driver.AppiumTest
-        self.driver = at.get_driver()
+        ar = appium_driver.driver
+        self.driver=ar.androiddriver()
+
 
     def get_id(self, id):
         element = self.driver.find_element_by_id(id)
@@ -16,7 +17,7 @@ class Element:
         element = self.driver.find_element_by_name(name)
         return element
 
-    def get_name(self, xpath):
+    def get_xpath(self, xpath):
         element = self.driver.find_element_by_xpath(xpath)
         return element
 
