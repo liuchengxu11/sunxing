@@ -1,15 +1,17 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webdriver import WebDriver
-
+import time
 
 class Config_page:
+
     _black_list = [
         (By.XPATH,
          "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ImageView[2]"),
         ]  # 这个就是写的在执行过程中出现的各种弹窗，广告
 
-    def __init__(self, driver: WebDriver):
+    def __init__(self, driver:WebDriver):
         self.driver = driver
+
 
     def find_element(self, locator):
         print(locator)
@@ -41,3 +43,6 @@ class Config_page:
                 print("%s not found" % str(locator))
 
         self.driver.implicitly_wait(10)
+
+
+

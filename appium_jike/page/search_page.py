@@ -15,3 +15,6 @@ class Search_page(Config_page):
         self.find_element(self._input_locator).send_keys(keyword)
         self.find_element(self._name_locator).click()
         return self
+
+
+
