@@ -16,9 +16,9 @@ class DB_mysql():
     def update_db(self,db,data):
         global systen
         conn= pymysql.connect(host=SX_DB_HOST,user=SX_DB_USER,password=SX_DB_PASS,database=db,encoding="utf8")
-        cursor=conn.cursor()
+        cursor=conn.cursor() #获取一个光标
         try:
-            cursor.execute(data),
+            cursor.execute(data), # 执行光标得到的对象
             cursor.close()
             systen=1
         except Exception as f:

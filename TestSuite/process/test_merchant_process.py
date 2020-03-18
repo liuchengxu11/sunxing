@@ -9,6 +9,7 @@ from utils.random_tools import random_merchantName
 from Config.Config import SX_API_URl
 
 
+
 class Test_merchant():
     def setup_class(self):
         self.database = "sunxing_ccs"

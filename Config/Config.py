@@ -28,6 +28,7 @@ app_driver ={
     "noReset":"True", # 不初始化手机app信息（类似不清楚缓存）
     'automationName':'appium',
     'deviceName':'c235f170',
-    'platformVersion':'9'
+    'platformVersion':'9',
+    "autoGrantPermissions":"True" # 让appium自动授权app权限
 }
 
