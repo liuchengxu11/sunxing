@@ -1,4 +1,0 @@
-{
-    "content-type": "application/json",
-    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkZXB0TmFtZSI6IumavOihjCIsInBob25lIjoiIiwidXNlclV1aWQiOiI0OTdlYWM5ZS00ZDViLTExZWEtYjMxZS0wMDE2M2UwMmE2NzEiLCJ1c2VyTmFtZSI6InpoYW5ndGluZ3RpbmciLCJleHAiOjE1ODMyMDAxNDYsImFjY291bnQiOiJ6aGFuZ3Rpbmd0aW5nIn0.RryeTSw6RFFEiDQrqOdHlsrzcY03B7WzKHfqbsPDH4A"
-}

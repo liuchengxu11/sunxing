@@ -1,4 +1,0 @@
-{
-    "account": "zhangtingting",
-    "password": "000000"
-}

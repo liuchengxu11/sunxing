@@ -1,5 +1,0 @@
-{
-    "msg": "联系人参数缺失",
-    "code": 500,
-    "isSuccess": false
-}

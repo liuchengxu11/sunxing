@@ -29,6 +29,32 @@ class Config_page:
         except:
             self.handle_exception()
             self.find_element(locator).click()
+    def find_element_and_send(self, locator, sendkeys="", dian=None):  # 封装一个输入的方法
+        print("sendkkeys={}".format(sendkeys))
+        if dian is not None:
+            try:
+                self.find_element(locator).click()
+                self.find_element(locator).clear()
+                self.find_element(locator).send_keys(sendkeys)
+                self.find_element(dian).click()
+
+            except BaseException:
+                self.handle_exception()
+                self.find_element(locator).click()
+                self.find_element(locator).clear()
+                self.find_element(locator).send_keys(sendkeys)
+                self.find_element(dian).click()
+        else:
+            try:
+                self.find_element(locator).click()
+                self.find_element(locator).clear()
+                self.find_element(locator).send_keys(sendkeys)
+
+            except BaseException:
+                self.handle_exception()
+                self.find_element(locator).click()
+                self.find_element(locator).clear()
+                self.find_element(locator).send_keys(sendkeys)
     def handle_exception(self):
         print(":exception")
         self.driver.implicitly_wait(0)  # 这里先设置隐式等待为0秒加快异常的处理速度然后在结束的时候设置回来

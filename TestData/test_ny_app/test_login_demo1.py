@@ -5,7 +5,7 @@ import pytest
 from appium import webdriver
 from selenium.webdriver.remote.webdriver import WebDriver
 from utils.app_common.appium_driver import driver
-from Config.Config import app_driver
+from Config.Config import app_driver,driver_uri1,driver_uri2
 """
 adb shell dumpsys window windows | grep -E 'mCurrentFocus|FocusedApp'
 adb logcat|grep -i displayed 

@@ -1,100 +1,40 @@
 [ {
-  "uid" : "e8a7c3d4a23783a4",
-  "name" : "test_addorupdate[易玉i-]",
+  "uid" : "9bb0c606e272cb27",
+  "name" : "test_addorupdate[郭d有-]",
   "time" : {
-    "start" : 1583143954337,
-    "stop" : 1583143954371,
-    "duration" : 34
+    "start" : 1585037660011,
+    "stop" : 1585037660069,
+    "duration" : 58
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "8174d60d8a9b2df6",
-  "name" : "test_addorupdate[和农却-王琦]",
+  "uid" : "dab34d1e194ab506",
+  "name" : "test_addorupdate[郭d有-刘程旭]",
   "time" : {
-    "start" : 1583463402953,
-    "stop" : 1583463403032,
-    "duration" : 79
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "360ca584e5483eb1",
-  "name" : "test_addorupdate[殴茜暨-王琦]",
-  "time" : {
-    "start" : 1583156946288,
-    "stop" : 1583156946370,
-    "duration" : 82
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "45c63d05cae1d581",
-  "name" : "test_addorupdate[和农却-刘程旭]",
-  "time" : {
-    "start" : 1583463403071,
-    "stop" : 1583463403121,
-    "duration" : 50
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "23ab1ec4c08649e5",
-  "name" : "test_process",
-  "time" : {
-    "start" : 1583463404083,
-    "stop" : 1583463404409,
-    "duration" : 326
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "fac3a9273d8a0bb2",
-  "name" : "test_addorupdate[殴茜暨-]",
-  "time" : {
-    "start" : 1583156946501,
-    "stop" : 1583156946544,
-    "duration" : 43
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c9bdde42f8e9ccb4",
-  "name" : "test_addorupdate[易玉i-王琦]",
-  "time" : {
-    "start" : 1583143954126,
-    "stop" : 1583143954207,
+    "start" : 1585037659878,
+    "stop" : 1585037659959,
     "duration" : 81
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "2eefa9d420ef8445",
-  "name" : "test_addorupdate[殴茜暨-刘程旭]",
+  "uid" : "1e2eac8ba5ae846",
+  "name" : "test_addorupdate[郭d有-王琦]",
   "time" : {
-    "start" : 1583156946408,
-    "stop" : 1583156946463,
-    "duration" : 55
+    "start" : 1585037659697,
+    "stop" : 1585037659822,
+    "duration" : 125
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "54e28e6dfc378e02",
-  "name" : "test_addorupdate[易玉i-刘程旭]",
+  "uid" : "c3d8efc0366ced98",
+  "name" : "test_process",
   "time" : {
-    "start" : 1583143954246,
-    "stop" : 1583143954298,
-    "duration" : 52
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2fbb84fb62660b62",
-  "name" : "test_addorupdate[和农却-]",
-  "time" : {
-    "start" : 1583463403160,
-    "stop" : 1583463403194,
-    "duration" : 34
+    "start" : 1585037661088,
+    "stop" : 1585037661600,
+    "duration" : 512
   },
   "status" : "passed",
   "severity" : "normal"
